@@ -1,0 +1,50 @@
+{
+	"background" : {
+		"bg_image" : "url(https://stockmanagementlabs.com/wp-content/uploads/2018/07/waves.svg)",
+		"bg_position" : "bottom",
+		"bg_size" : "contain",
+		"bg_repeat" : "no-repeat",
+		"bg_color" : "#f5fdff"
+	},
+	"images" : {
+		"logo" : "https://stockmanagementlabs.com/wp-content/uploads/edd/2022/02/icon-pl.svg",
+		"dash_logo" : "https://stockmanagementlabs.com/wp-content/uploads/edd/2022/02/icon-pl.svg",
+		"logo_css" : "",
+		"top_left" : "https://stockmanagementlabs.com/wp-content/uploads/2024/01/label-new-featured2.svg"
+	},
+	"title": {
+		"text"      : "Product<strong>Levels</strong>",
+		"text_color": "black",
+		"text_size" : "",
+		"text_align": "center"
+	},
+	"version" : {
+		"text" : "v1.9.2",
+		"text_color" : "#FFF",
+		"background" : "#9357cc"
+	},
+	"description" : {
+		"text" : "<strong>NEW FEATURE!</strong> Product Levels Premium Add-on just got better. Produce from your Bill Of Materials with one simple click.",
+		"text_color" : "#6c757d",
+		"text_size" : "14px",
+		"text_align" : "center",
+		"dash_text_align" : "left",
+		"padding" : "0 9px 25px"
+	},
+	"buttons": [
+		{
+			"text"      : "Purchase Now",
+			"url"       : "https://stockmanagementlabs.com/addons/atum-product-levels",
+			"class"     : "btn btn-purple-pl",
+			"css"       : ""
+		},
+		{
+			"text"      : "Read documentation",
+			"url"       : "https://stockmanagementlabs.crunch.help/en/atum-product-levels/produce-items-according-to-bom",
+			"class"     : "btn btn-outline-purple-pl",
+			"css"       : ""
+		}
+	],
+	"additional_class" : "",
+	"transient_key" : "produce_items"
+}

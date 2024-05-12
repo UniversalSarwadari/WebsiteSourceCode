@@ -1,0 +1,24 @@
+#woocommerce-product-data .product_data li.bulk_variations_tab a::before {
+    content: "\f174" !important;
+}
+#bulk_variations_product_data {
+
+    .single-attribute {
+
+        .hide-if-single {
+            display: none;
+        }
+
+        .show-if-single {
+            display: block;
+        }
+    }
+
+    .show-if-single {
+        display: none;
+    }
+
+    select.wcbvp-select {
+        min-width: 200px;
+    }
+}

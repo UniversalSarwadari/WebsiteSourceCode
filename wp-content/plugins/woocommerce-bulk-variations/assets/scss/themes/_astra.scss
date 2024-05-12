@@ -1,0 +1,26 @@
+.theme-astra {
+    .wc-bulk-variations-table {
+        margin: 0 0 15px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-width: 1px 0 0 1px;
+
+		> * {
+            background-color: #fdfdfd;
+            padding: 8px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-width: 0 1px 1px 0;
+        }
+
+		> .wcbvp-col-header {
+            font-weight: 600;
+        }
+        
+		> .wcbv-cell {
+			input.wcbvp-quantity {
+				height: auto;
+				line-height: 1.618;
+			}
+		} 
+
+    }
+}

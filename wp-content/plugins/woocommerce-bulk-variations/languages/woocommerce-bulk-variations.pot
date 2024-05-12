@@ -1,0 +1,872 @@
+# Copyright (C) 2023 Barn2 Plugins
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Bulk Variations 2.2.0\n"
+"Report-Msgid-Bugs-To: https://barn2.com/support-center/\n"
+"Last-Translator: Barn2 Plugins <support@barn2.com>\n"
+"Language-Team: Barn2 Plugins <support@barn2.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-03-06T00:00:00+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: woocommerce-bulk-variations\n"
+
+#. Plugin Name of the plugin
+msgid "WooCommerce Bulk Variations"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://barn2.com/wordpress-plugins/woocommerce-bulk-variations/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Displays product variations in a grid layout or price matrix."
+msgstr ""
+
+#. Author of the plugin
+msgid "Barn2 Plugins"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://barn2.com"
+msgstr ""
+
+#: dependencies/src/Api.php:152
+msgid "Could not find the appropriate step."
+msgstr ""
+
+#: dependencies/src/Api.php:192
+msgid "Please enter a license key."
+msgstr ""
+
+#: dependencies/src/Api.php:195
+msgid "Invalid action requested."
+msgstr ""
+
+#. translators: %s: The name of the plugin.
+#: dependencies/src/Setup_Wizard.php:333
+msgid "%s setup wizard"
+msgstr ""
+
+#: dependencies/src/Setup_Wizard.php:423
+#: dependencies/src/Setup_Wizard.php:496
+msgid "Warning: This will overwrite your existing settings for %s. Are you sure you want to continue?"
+msgstr ""
+
+#: dependencies/src/Setup_Wizard.php:473
+#: dependencies/src/Setup_Wizard.php:481
+#: dependencies/src/Setup_Wizard.php:531
+msgid "Setup wizard"
+msgstr ""
+
+#: dependencies/src/Setup_Wizard.php:476
+msgid "If you need to access the setup wizard again, please click on the button below."
+msgstr ""
+
+#: dependencies/src/Steps/Cross_Selling.php:23
+#: src/Admin/Wizard/Steps/Upsell.php:17
+msgid "More"
+msgstr ""
+
+#: dependencies/src/Steps/Cross_Selling.php:24
+#: src/Admin/Wizard/Steps/Upsell.php:19
+msgid "Extra features"
+msgstr ""
+
+#: dependencies/src/Steps/Cross_Selling.php:25
+msgid "Enhance your site with these fantastic plugins from Barn2."
+msgstr ""
+
+#: dependencies/src/Steps/Ready.php:23
+#: src/Admin/Wizard/Steps/Completed.php:17
+msgid "Ready"
+msgstr ""
+
+#: dependencies/src/Steps/Ready.php:24
+#: src/Admin/Wizard/Steps/Completed.php:18
+msgid "Setup Complete"
+msgstr ""
+
+#: dependencies/src/Steps/Welcome.php:25
+#: dependencies/src/Steps/Welcome_Free.php:24
+#: src/Admin/Wizard/Steps/License_Verification.php:17
+msgid "Welcome"
+msgstr ""
+
+#: dependencies/src/Util.php:28
+msgid "Select an option"
+msgstr ""
+
+#: lib/Admin/Settings_Util.php:68
+#: src/Util/Settings.php:104
+msgid "Documentation"
+msgstr ""
+
+#: lib/Admin/Settings_Util.php:73
+#: src/Util/Settings.php:119
+msgid "Support"
+msgstr ""
+
+#: lib/Plugin/Admin/Admin_Links.php:52
+msgid "Settings"
+msgstr ""
+
+#. translators: %s: The plugin name
+#: lib/Plugin/Admin/Admin_Links.php:72
+msgid "View %s documentation"
+msgstr ""
+
+#: lib/Plugin/Admin/Admin_Links.php:73
+msgid "Docs"
+msgstr ""
+
+#. translators: 1: licence key link start, 2: license key link end
+#: lib/Plugin/Admin/Plugin_Updater.php:180
+msgid "Activate %1$syour license key%2$s to enable updates."
+msgstr ""
+
+#: lib/Plugin/Admin/Plugin_Updater.php:253
+msgid "Auto-updates unavailable."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:65
+msgid "License key successfully activated."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:66
+msgid "There was an error activating your license key."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:74
+msgid "License key successfully deactivated."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:75
+msgid "There was an error deactivating your license key, please try again."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:82
+msgid "The license key looks good!"
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:83
+msgid "There's a problem with your license key."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:138
+msgid "License key"
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:146
+#: src/Admin/Wizard/Setup_Wizard.php:49
+msgid "The licence key is contained in your order confirmation email."
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:149
+msgid "License Key"
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:175
+msgid "Check"
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:176
+msgid "Activate"
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:177
+msgid "Deactivate"
+msgstr ""
+
+#: lib/Plugin/License/Admin/License_Key_Setting.php:188
+msgid "License key deactivated."
+msgstr ""
+
+#. translators: 1: the plugin name, 2: settings link start, 3: settings link end.
+#: lib/Plugin/License/Admin/License_Notices.php:93
+msgid "Thank you for installing %1$s. To get started, please %2$senter your license key%3$s."
+msgstr ""
+
+#. translators: 1: the plugin name, 2: renewal link start, 3: renewal link end.
+#: lib/Plugin/License/Admin/License_Notices.php:114
+msgid "Your license key for %1$s has expired. %2$sClick here to renew for 20%% discount%3$s."
+msgstr ""
+
+#. translators: 1: the plugin name, 2: renewal link start, 3: renewal link end.
+#: lib/Plugin/License/Admin/License_Notices.php:135
+msgid "You no longer have a valid license for %1$s. Please %2$spurchase a new license key%3$s to continue using the plugin."
+msgstr ""
+
+#. translators: 1: the plugin name, 2: settings link start, 3: settings link end.
+#: lib/Plugin/License/Admin/License_Notices.php:160
+msgid "%1$s - your site has moved to a new domain. Please %2$sreactivate your license key%3$s."
+msgstr ""
+
+#: lib/Plugin/License/EDD_Licensing.php:184
+msgid "An error has occurred, please try again."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:92
+msgid "Your license key is active."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:112
+msgid "Please enter your license key."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:114
+#: lib/Plugin/License/Plugin_License.php:383
+msgid "Your license key is invalid."
+msgstr ""
+
+#. translators: 1: account page link start, 2: account page link end
+#: lib/Plugin/License/Plugin_License.php:320
+msgid "Invalid license key - please check your order confirmation email or %1$sAccount%2$s."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:326
+msgid "No URL was supplied for activation, please contact support."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:329
+msgid "License key mismatch, please contact support."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:332
+msgid "This license is for a bundled product and cannot be activated."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:336
+msgid "Your license key is not valid for this plugin."
+msgstr ""
+
+#. translators: %s: The number of sites the license is activated on
+#: lib/Plugin/License/Plugin_License.php:343
+msgid "%s site active"
+msgid_plural "%s sites active"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: The sites active description, e.g. '2 sites active'
+#: lib/Plugin/License/Plugin_License.php:347
+msgid "Your license key has reached its activation limit (%s)."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:348
+#: lib/Util.php:33
+msgid "Read more"
+msgstr ""
+
+#. translators: support for RTL, 1: the license error, 2: a link
+#: lib/Plugin/License/Plugin_License.php:351
+#: lib/Plugin/License/Plugin_License.php:372
+msgid "%1$s %2$s"
+msgstr ""
+
+#. translators: %s: The license expiry date
+#: lib/Plugin/License/Plugin_License.php:365
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:369
+msgid "Renew now for 20% discount."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:624
+msgid "Your license key is not active. Please reactivate or save the settings."
+msgstr ""
+
+#: lib/Plugin/License/Plugin_License.php:628
+msgid "Your license key has expired."
+msgstr ""
+
+#. translators: 1: purchase link start, 2: purchase link end.
+#: lib/Plugin/License/Plugin_License.php:634
+msgid "Your license key has been disabled. Please %1$spurchase a new license key%2$s to continue using the plugin."
+msgstr ""
+
+#: lib/WooCommerce/Admin/Custom_Settings_Fields.php:119
+msgid "Size"
+msgstr ""
+
+#: src/Admin/Admin_Controller.php:34
+#: src/Admin/Settings_Page.php:29
+msgid "Bulk Variations"
+msgstr ""
+
+#: src/Admin/Customize_Term.php:90
+#: src/Admin/Customize_Term.php:181
+#: src/Admin/Customize_Term.php:184
+msgid "Thumbnail"
+msgstr ""
+
+#: src/Admin/Customize_Term.php:96
+#: src/Admin/Customize_Term.php:190
+msgid "Upload/Add image"
+msgstr ""
+
+#: src/Admin/Customize_Term.php:97
+#: src/Admin/Customize_Term.php:191
+msgid "Remove image"
+msgstr ""
+
+#: src/Admin/Customize_Term.php:121
+#: src/Admin/Customize_Term.php:215
+msgid "Choose an image"
+msgstr ""
+
+#: src/Admin/Customize_Term.php:123
+#: src/Admin/Customize_Term.php:217
+msgid "Use image"
+msgstr ""
+
+#: src/Admin/Products_Page.php:114
+#: src/Admin/views/html-meta-boxes-data-panel.php:60
+msgid "Select attribute"
+msgstr ""
+
+#. translators: %count% is the number of results in the search, %totals% is in the format 'x variations' (e.g. 72 variations)
+#: src/Admin/Products_Page.php:123
+msgid "%count% results out of %totals%"
+msgstr ""
+
+#. translators: %totals% is replaced with expression 'N variations' (e.g. 72 variations)
+#: src/Admin/Products_Page.php:125
+msgid "%count% result out of %totals%"
+msgstr ""
+
+#: src/Admin/Products_Page.php:126
+msgid "Apply to filtered variations only"
+msgstr ""
+
+#: src/Admin/Products_Page.php:127
+msgid "Delete filtered variations"
+msgstr ""
+
+#: src/Admin/Products_Page.php:128
+msgid "Select one or more stock status"
+msgstr ""
+
+#: src/Admin/Products_Page.php:129
+msgid "Are you sure you want to delete the current selection of variations? This cannot be undone."
+msgstr ""
+
+#: src/Admin/Products_Page.php:130
+msgid "Are you sure you want to remove the thumbnails from the current selection of variations? This cannot be undone."
+msgstr ""
+
+#: src/Admin/Products_Page.php:131
+msgid "Select the variation thumbnail"
+msgstr ""
+
+#: src/Admin/Products_Page.php:132
+msgid "Select"
+msgstr ""
+
+#: src/Admin/Settings_Page.php:48
+#: src/Util/Settings.php:113
+msgid "Bulk variations"
+msgstr ""
+
+#: src/Admin/Variation_Manager.php:572
+msgid "Thumbnails"
+msgstr ""
+
+#: src/Admin/Variation_Manager.php:573
+msgid "Set thumbnail"
+msgstr ""
+
+#: src/Admin/Variation_Manager.php:574
+msgid "Remove thumbnail"
+msgstr ""
+
+#: src/Admin/views/html-meta-boxes-additional-filter-item.php:47
+msgid "and"
+msgstr ""
+
+#: src/Admin/views/html-meta-boxes-additional-filter-item.php:68
+msgid "Select a stock status"
+msgstr ""
+
+#: src/Admin/views/html-meta-boxes-additional-filter-item.php:74
+msgctxt "enhanced select"
+msgid "No matches found"
+msgstr ""
+
+#: src/Admin/views/html-meta-boxes-additional-filters.php:11
+msgid "Add a new filtering value"
+msgstr ""
+
+#: src/Admin/views/html-meta-boxes-additional-filters.php:12
+msgid "Update"
+msgstr ""
+
+#: src/Admin/views/html-meta-boxes-data-panel.php:84
+msgid "Product-level control"
+msgstr ""
+
+#: src/Admin/views/html-meta-boxes-data-panel.php:85
+msgid "Override the global settings for this product."
+msgstr ""
+
+#: src/Admin/views/html-meta-boxes-data-panel.php:98
+msgid "Enable"
+msgstr ""
+
+#: src/Admin/views/html-meta-boxes-data-panel.php:99
+msgid "Enable the bulk variation grid for this product"
+msgstr ""
+
+#: src/Admin/views/html-meta-boxes-data-panel.php:112
+msgid "Hide default add to cart"
+msgstr ""
+
+#: src/Admin/views/html-meta-boxes-data-panel.php:113
+msgid "Remove the default variation dropdowns and add to cart button (recommended if you are using a shortcode to insert the variations grid manually)."
+msgstr ""
+
+#: src/Admin/views/html-meta-boxes-data-panel.php:126
+#: src/Admin/Wizard/Steps/General_Settings.php:69
+msgid "Disable purchasing"
+msgstr ""
+
+#: src/Admin/views/html-meta-boxes-data-panel.php:127
+msgid "Display the variations grid without quantity boxes or add to cart button."
+msgstr ""
+
+#: src/Admin/views/html-meta-boxes-data-panel.php:139
+#: src/Admin/views/html-meta-boxes-data-panel.php:169
+msgid "Horizontal"
+msgstr ""
+
+#: src/Admin/views/html-meta-boxes-data-panel.php:153
+#: src/Admin/views/html-meta-boxes-data-panel.php:170
+msgid "Vertical"
+msgstr ""
+
+#: src/Admin/views/html-meta-boxes-data-panel.php:167
+msgid "Single attribute layout"
+msgstr ""
+
+#: src/Admin/views/html-meta-boxes-data-panel.php:183
+#: src/Admin/Wizard/Steps/Images.php:25
+#: src/Util/Settings.php:177
+msgid "Variation images"
+msgstr ""
+
+#: src/Admin/views/html-meta-boxes-data-panel.php:184
+msgid "Display an image for each variation."
+msgstr ""
+
+#: src/Admin/views/html-meta-boxes-data-panel.php:186
+#: src/Util/Settings.php:181
+msgid "Do not show any images"
+msgstr ""
+
+#: src/Admin/views/html-meta-boxes-data-panel.php:187
+#: src/Util/Settings.php:182
+msgid "Show horizontally"
+msgstr ""
+
+#: src/Admin/views/html-meta-boxes-data-panel.php:188
+#: src/Util/Settings.php:183
+msgid "Show vertically"
+msgstr ""
+
+#: src/Admin/views/html-meta-boxes-filters.php:37
+msgid "Advanced"
+msgstr ""
+
+#: src/Admin/views/html-meta-boxes-filters.php:38
+msgid "Reset"
+msgstr ""
+
+#: src/Admin/views/html-notice-update.php:21
+msgid "WooCommerce Bulk Variations database update required"
+msgstr ""
+
+#: src/Admin/views/html-notice-update.php:25
+msgid "WooCommerce Bulk Variations has been updated! To keep things running smoothly, we have to update your database to the newest version. We recommend backing up your site first."
+msgstr ""
+
+#: src/Admin/views/html-notice-update.php:30
+msgid "Update WooCommerce Bulk Variations Database"
+msgstr ""
+
+#: src/Admin/views/html-notice-updated.php:20
+msgid "Dismiss"
+msgstr ""
+
+#: src/Admin/views/html-notice-updated.php:22
+msgid "WooCommerce Bulk Variations database update complete. Thank you for updating to the latest version!"
+msgstr ""
+
+#: src/Admin/Wizard/Setup_Wizard.php:53
+msgid "Products"
+msgstr ""
+
+#: src/Admin/Wizard/Setup_Wizard.php:57
+msgid "Go to settings page"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Completed.php:19
+msgid "Congratulations, you have finished setting up the plugin! If you want to manage variations in bulk or configure the variations grid separately for individual products, then you can do this on the ‘Edit Product’ screen."
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Features.php:21
+msgid "Features"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Features.php:22
+msgid "Managing and displaying variations"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Features.php:23
+msgid "Which bulk variations features do you plan to use?"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Features.php:33
+msgid "Add and edit variations in bulk"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Features.php:39
+msgid "Display variations in a grid layout"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/General_Settings.php:23
+msgid "General"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/General_Settings.php:24
+msgid "Customize the bulk variations grid"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/General_Settings.php:25
+msgid "General settings"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/General_Settings.php:26
+msgid "These options will affect all your variations grids. You can override them on the ‘Add/Edit Product’ screen for each individual product."
+msgstr ""
+
+#: src/Admin/Wizard/Steps/General_Settings.php:67
+msgid "Products with 1 or 2 variation attributes"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/General_Settings.php:68
+msgid "Products with 3 or more variation attributes"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/General_Settings.php:70
+msgid "Show stock information"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/General_Settings.php:71
+msgid "Hide same price"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Images.php:23
+msgid "Images"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Images.php:24
+msgid "Choose how to display the image of each variation in the grid"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/License_Verification.php:18
+msgid "Welcome to WooCommerce Bulk Variations"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/License_Verification.php:19
+msgid "Display product variations and edit them in bulk"
+msgstr ""
+
+#: src/Admin/Wizard/Steps/License_Verification.php:20
+msgid "Use this setup wizard to quickly configure the most popular options for your bulk variations grids. You can easily change these options later on the plugin settings page or by relaunching the setup wizard."
+msgstr ""
+
+#: src/Admin/Wizard/Steps/Upsell.php:18
+msgid "Enhance your store with these fantastic plugins from Barn2."
+msgstr ""
+
+#: src/Data/Data_Factory.php:234
+#: src/Data/Data_Factory.php:277
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: src/Frontend_Scripts.php:69
+msgid "Item"
+msgstr ""
+
+#: src/Frontend_Scripts.php:70
+#: src/Grid.php:441
+#: templates/wc-bulk-variations-footer.php:15
+msgid "Items"
+msgstr ""
+
+#. translators: the total amount (currency)
+#: src/Frontend_Scripts.php:72
+msgid "Your total is %s"
+msgstr ""
+
+#: src/Grid.php:214
+#: src/Grid.php:308
+msgid "Price"
+msgstr ""
+
+#. translators: the variation name (e.g. blue or small)
+#: src/Grid.php:238
+#: src/Grid.php:519
+msgid "Variation picture for %s"
+msgstr ""
+
+#: src/Grid.php:445
+#: templates/wc-bulk-variations-footer.php:19
+msgid "Total"
+msgstr ""
+
+#: src/Handlers/Cart.php:39
+msgid "Please select one or more products."
+msgstr ""
+
+#: src/Handlers/Cart.php:130
+msgid "No product selected. Please try again."
+msgstr ""
+
+#: src/Handlers/Cart.php:133
+msgid "This product is no longer available. Please select an alternative."
+msgstr ""
+
+#: src/Handlers/Cart.php:136
+msgid "Please enter a quantity greater than 0."
+msgstr ""
+
+#. translators: 1: product name, 2: list of variations
+#: src/Handlers/Cart.php:174
+msgid "%1$s has been added to your cart in the following variations:%2$s"
+msgstr ""
+
+#. translators: the ID of a product
+#: src/Handlers/Shortcode.php:52
+msgid "The product ID is missing or the ID provided does not correspond to a variable product."
+msgstr ""
+
+#: src/Plugin.php:112
+msgid "Please %1$sinstall WooCommerce%2$s in order to use WooCommerce Bulk Variations."
+msgstr ""
+
+#: src/Util/Settings.php:116
+msgid "The following options control the WooCommerce Bulk Variations extension."
+msgstr ""
+
+#: src/Util/Settings.php:134
+msgid "Grid options"
+msgstr ""
+
+#: src/Util/Settings.php:137
+msgid "Use the variations grid for all products with 1 or 2 variation attributes"
+msgstr ""
+
+#: src/Util/Settings.php:144
+msgid "Use the variations grid for all products with 3 or more variation attributes"
+msgstr ""
+
+#: src/Util/Settings.php:151
+msgid "Display the variations grid without quantity boxes or add to cart button"
+msgstr ""
+
+#: src/Util/Settings.php:158
+msgid "Display stock information in the variations grid"
+msgstr ""
+
+#: src/Util/Settings.php:165
+msgid "Display description in the variations grid"
+msgstr ""
+
+#: src/Util/Settings.php:172
+msgid "Hide prices if all variations have the same price"
+msgstr ""
+
+#: src/Util/Settings.php:185
+msgid "Whether the images should be displayed horizontally or vertically."
+msgstr ""
+
+#: src/Util/Settings.php:191
+msgid "Show variation images in product gallery"
+msgstr ""
+
+#: src/Util/Settings.php:192
+msgid "Automatically include variation images in the product gallery. Recommended image size: 1,000 x 1,000px or larger."
+msgstr ""
+
+#: src/Util/Settings.php:198
+msgid "Open variation images in a lightbox"
+msgstr ""
+
+#: src/Util/Settings.php:202
+msgid "Default attributes"
+msgstr ""
+
+#: src/Util/Settings.php:205
+msgid "Use the first attribute of each product"
+msgstr ""
+
+#: src/Util/Settings.php:206
+msgid "Select which global attributes should be used by default as the horizontal and vertical headers of the grid."
+msgstr ""
+
+#: src/Util/Settings.php:207
+msgid "Default horizontal attribute."
+msgstr ""
+
+#: src/Util/Settings.php:214
+msgid "Use the second attribute of each product"
+msgstr ""
+
+#: src/Util/Settings.php:215
+msgid "Default vertical attribute."
+msgstr ""
+
+#: src/Util/Settings.php:220
+msgid "Single variation attribute"
+msgstr ""
+
+#: src/Util/Settings.php:224
+msgid "Display horizontally"
+msgstr ""
+
+#: src/Util/Settings.php:225
+msgid "Display vertically"
+msgstr ""
+
+#: src/Util/Settings.php:227
+msgid "Grid layout for products with only one variation attribute."
+msgstr ""
+
+#: src/Util/Util.php:76
+msgid "Regular price"
+msgstr ""
+
+#: src/Util/Util.php:81
+msgid "Sale price"
+msgstr ""
+
+#: src/Util/Util.php:86
+msgid "Enabled"
+msgstr ""
+
+#: src/Util/Util.php:90
+msgid "Downloadable"
+msgstr ""
+
+#: src/Util/Util.php:94
+msgid "Virtual"
+msgstr ""
+
+#: src/Util/Util.php:98
+msgid "Manage stock"
+msgstr ""
+
+#: src/Util/Util.php:102
+msgid "Stock status"
+msgstr ""
+
+#: src/Util/Util.php:106
+msgid "Stock"
+msgstr ""
+
+#: src/Util/Util.php:111
+msgid "Low stock threshold"
+msgstr ""
+
+#: src/Util/Util.php:116
+msgid "Sale schedule"
+msgstr ""
+
+#: src/Util/Util.php:121
+msgid "SKU"
+msgstr ""
+
+#: src/Util/Util.php:137
+msgid "="
+msgstr ""
+
+#: src/Util/Util.php:142
+msgid "!="
+msgstr ""
+
+#: src/Util/Util.php:147
+msgid ">"
+msgstr ""
+
+#: src/Util/Util.php:152
+msgid ">="
+msgstr ""
+
+#: src/Util/Util.php:157
+msgid "<"
+msgstr ""
+
+#: src/Util/Util.php:162
+msgid "<="
+msgstr ""
+
+#: src/Util/Util.php:169
+msgid "Yes"
+msgstr ""
+
+#: src/Util/Util.php:175
+msgid "No"
+msgstr ""
+
+#: src/Util/Util.php:183
+msgid "contains"
+msgstr ""
+
+#: src/Util/Util.php:188
+msgid "doesn't contain"
+msgstr ""
+
+#: src/Util/Util.php:195
+msgid "is one of"
+msgstr ""
+
+#: src/Util/Util.php:201
+msgid "is not one of"
+msgstr ""
+
+#: src/Util/Util.php:209
+msgid "starts before"
+msgstr ""
+
+#: src/Util/Util.php:214
+msgid "ends before"
+msgstr ""
+
+#: src/Util/Util.php:219
+msgid "starts after"
+msgstr ""
+
+#: src/Util/Util.php:224
+msgid "ends after"
+msgstr ""
+
+#: src/Util/Util.php:229
+msgid "is running"
+msgstr ""
+
+#: src/Util/Util.php:235
+msgid "is not running"
+msgstr ""
+
+#: src/Util/Util.php:241
+msgid "is between"
+msgstr ""
+
+#: src/Util/Util.php:248
+msgid "is not between"
+msgstr ""

@@ -1,0 +1,324 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Advanced Quantity\n"
+"POT-Creation-Date: 2020-10-14 10:31+0200\n"
+"PO-Revision-Date: 2015-08-19 11:38+0200\n"
+"Last-Translator: \n"
+"Language-Team: Morning Train Technologies\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/morningtrain_updateChecker.class.php:83
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?\" "
+"onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+
+#: includes/morningtrain_updateChecker.class.php:87
+msgid "An unknown error occurred"
+msgstr ""
+
+#: lib/modules/admin-tools/traits/trait.admin-crud.php:661
+msgid "Edit field group"
+msgstr ""
+
+#: plugin/controllers/controller.dependencies.php:54
+#, php-format
+msgid "Requires WooCommerce to be installed and activated. You can download %s here."
+msgstr ""
+
+#: plugin/controllers/controller.global-settings.php:35
+msgid "Settings"
+msgstr ""
+
+#: plugin/controllers/controller.global-settings.php:53
+#: plugin/controllers/controller.global-settings.php:80
+#: templates/settings/category-settings-add.php:5
+#: templates/settings/category-settings-edit.php:8
+msgid "Advanced Quantity"
+msgstr ""
+
+#: plugin/controllers/controller.global-settings.php:83
+msgid "Set to \"0\" to deactivate the global values."
+msgstr ""
+
+#: plugin/controllers/controller.global-settings.php:86
+#: templates/settings/category-settings-add.php:8
+#: templates/settings/category-settings-edit.php:13
+#: templates/settings/product-settings-tab.php:16
+#: templates/settings/product-variation-settings.php:20
+msgid "Minimum"
+msgstr ""
+
+#: plugin/controllers/controller.global-settings.php:87
+msgid "This controls the minimum a customer can add to an order of products"
+msgstr ""
+
+#: plugin/controllers/controller.global-settings.php:96
+#: templates/settings/category-settings-add.php:12
+#: templates/settings/category-settings-edit.php:21
+#: templates/settings/product-settings-tab.php:27
+#: templates/settings/product-variation-settings.php:33
+msgid "Maximum"
+msgstr ""
+
+#: plugin/controllers/controller.global-settings.php:97
+msgid "This controls the maximum a customer can add to an order of a product."
+msgstr ""
+
+#: plugin/controllers/controller.global-settings.php:106
+#: templates/settings/category-settings-add.php:16
+#: templates/settings/category-settings-edit.php:29
+#: templates/settings/product-settings-tab.php:38
+#: templates/settings/product-variation-settings.php:46
+msgid "Step"
+msgstr ""
+
+#: plugin/controllers/controller.global-settings.php:107
+msgid "This controls the way that quantity increments."
+msgstr ""
+
+#: plugin/controllers/controller.global-settings.php:116
+#: templates/settings/category-settings-add.php:20
+#: templates/settings/category-settings-edit.php:37
+#: templates/settings/product-settings-tab.php:49
+#: templates/settings/product-variation-settings.php:59
+msgid "Step intervals"
+msgstr ""
+
+#: plugin/controllers/controller.global-settings.php:117
+msgid ""
+"Example: 0,10,5|10,100,10 which means from 0 to 10 it will increase by 5 and 10 to "
+"100 will increase with 10."
+msgstr ""
+
+#: plugin/controllers/controller.global-settings.php:126
+#: templates/settings/category-settings-add.php:24
+#: templates/settings/category-settings-edit.php:45
+#: templates/settings/product-settings-tab.php:61
+#: templates/settings/product-variation-settings.php:73
+msgid "Standard value"
+msgstr ""
+
+#: plugin/controllers/controller.global-settings.php:127
+msgid "This controls the standard value for the quantity fields."
+msgstr ""
+
+#: plugin/controllers/controller.global-settings.php:136
+#: plugin/controllers/controller.global-settings.php:186
+#: templates/settings/category-settings-add.php:28
+#: templates/settings/category-settings-edit.php:53
+#: templates/settings/product-settings-tab.php:75
+msgid "Price suffix"
+msgstr ""
+
+#: plugin/controllers/controller.global-settings.php:137
+msgid "This controls the price suffix."
+msgstr ""
+
+#: plugin/controllers/controller.global-settings.php:145
+#: plugin/controllers/controller.global-settings.php:193
+#: templates/settings/category-settings-add.php:32
+#: templates/settings/category-settings-edit.php:61
+#: templates/settings/product-settings-tab.php:85
+msgid "Quantity suffix"
+msgstr ""
+
+#: plugin/controllers/controller.global-settings.php:146
+msgid "This controls the quantity suffix fields."
+msgstr ""
+
+#: plugin/controllers/controller.global-settings.php:154
+#: templates/settings/category-settings-add.php:36
+#: templates/settings/category-settings-edit.php:69
+#: templates/settings/product-settings-tab.php:95
+msgid "Display Price Factor"
+msgstr ""
+
+#: plugin/controllers/controller.global-settings.php:155
+#: templates/settings/product-settings-tab.php:97
+msgid ""
+"Factor to multiply the display price. Example: Can be used for displaying prices "
+"for kilos while the quantity follows grams"
+msgstr ""
+
+#: plugin/controllers/controller.global-settings.php:164
+#: plugin/controllers/controller.global-settings.php:200
+#: templates/settings/category-settings-add.php:39
+#: templates/settings/category-settings-edit.php:77
+#: templates/settings/product-settings-tab.php:109
+msgid "Input picker"
+msgstr ""
+
+#: plugin/controllers/controller.global-settings.php:165
+#: plugin/controllers/controller.global-settings.php:201
+msgid "This controls the input type for the quantity field."
+msgstr ""
+
+#: plugin/controllers/controller.global-settings.php:180
+msgid "Cart"
+msgstr ""
+
+#: plugin/controllers/controller.global-settings.php:183
+msgid "Settings for the cart page"
+msgstr ""
+
+#: plugin/controllers/controller.global-settings.php:187
+msgid "Show the price suffix on the cart page."
+msgstr ""
+
+#: plugin/controllers/controller.global-settings.php:194
+msgid "Show the quantity suffix on the cart page."
+msgstr ""
+
+#: plugin/controllers/controller.global-settings.php:205
+msgid "Follow the product setting"
+msgstr ""
+
+#: plugin/controllers/controller.global-settings.php:210
+msgid "Automatic cart refresh"
+msgstr ""
+
+#: plugin/controllers/controller.global-settings.php:211
+msgid "Automatically update cart on quantity change"
+msgstr ""
+
+#: plugin/controllers/controller.global-settings.php:218
+msgid "Hide update button"
+msgstr ""
+
+#: plugin/controllers/controller.global-settings.php:219
+msgid ""
+"Only a good idea if Automatic cart refresh is activated or something else handles "
+"cart refresh"
+msgstr ""
+
+#: plugin/controllers/controller.global-settings.php:233
+msgid "Misc"
+msgstr ""
+
+#: plugin/controllers/controller.global-settings.php:236
+msgid "Miscellaneous settings"
+msgstr ""
+
+#: plugin/controllers/controller.global-settings.php:239
+msgid "Dropdown on mobile"
+msgstr ""
+
+#: plugin/controllers/controller.global-settings.php:240
+msgid "Force dropdown input for mobile, to avoid invalid quantity selection"
+msgstr ""
+
+#: plugin/controllers/controller.product-settings.php:33
+#: plugin/controllers/controller.product-variation-settings.php:91
+msgid "WooCommerce Advanced Quantity"
+msgstr ""
+
+#: plugin/controllers/controller.product-variation-settings.php:93
+msgid "Toggle \"WooCommerce Advanced Quantity\""
+msgstr ""
+
+#: plugin/controllers/controller.quantity.php:223
+#, php-format
+msgid ""
+"The maximum quantity allowed to purchase of this product is %s. You already have "
+"%s in your cart."
+msgstr ""
+
+#: plugin/controllers/controller.quantity.php:225
+#: plugin/controllers/controller.quantity.php:269
+#, php-format
+msgid "The maximum quantity allowed to purchase of this product is %s."
+msgstr ""
+
+#: plugin/controllers/controller.quantity.php:232
+#: plugin/controllers/controller.quantity.php:275
+#, php-format
+msgid "You must purchase at least %s of this product."
+msgstr ""
+
+#: plugin/controllers/controller.quantity.php:240
+#: plugin/controllers/controller.quantity.php:282
+#, php-format
+msgid "You did not add a valid quantity to the cart. Try to add %s instead."
+msgstr ""
+
+#: plugin/input-types/default-input/class.default-input.php:13
+msgid "Default"
+msgstr ""
+
+#: plugin/input-types/dropdown/class.dropdown.php:14
+msgid "Dropdown"
+msgstr ""
+
+#: plugin/input-types/global-input/class.global-input.php:12
+msgid "Follow parent setting"
+msgstr ""
+
+#: plugin/input-types/plus-minus-input/class.plus-minus-input.php:14
+msgid "+/-"
+msgstr ""
+
+#: plugin/input-types/slider/class.slider.php:14
+msgid "Slider"
+msgstr ""
+
+#: templates/settings/category-settings-add.php:21
+#: templates/settings/category-settings-edit.php:40
+#: templates/settings/product-settings-tab.php:51
+#: templates/settings/product-variation-settings.php:61
+msgid "Example: 0,10,5|10,100,10"
+msgstr ""
+
+#: templates/settings/product-settings-tab.php:18
+msgid "The minimum quantity a customer has to order of this product."
+msgstr ""
+
+#: templates/settings/product-settings-tab.php:29
+msgid "The maximum quantity a customer can add to same order of this product."
+msgstr ""
+
+#: templates/settings/product-settings-tab.php:40
+#: templates/settings/product-variation-settings.php:48
+msgid "The step between allowed quantities."
+msgstr ""
+
+#: templates/settings/product-settings-tab.php:53
+#: templates/settings/product-variation-settings.php:63
+msgid ""
+"The step between allowed quantities intervals (example: 0,10,5|10,100,10) which "
+"means from 0 to 10 it will increase by 5 and 10 to 100 will increase with 10"
+msgstr ""
+
+#: templates/settings/product-settings-tab.php:63
+#: templates/settings/product-variation-settings.php:75
+msgid "The standard value the quantity fields shows."
+msgstr ""
+
+#: templates/settings/product-settings-tab.php:77
+msgid "Text to add after price (example: pr. 100g)"
+msgstr ""
+
+#: templates/settings/product-settings-tab.php:87
+msgid "Text to add after chosen quantity (example: x 100 g)"
+msgstr ""
+
+#: templates/settings/product-settings-tab.php:111
+msgid "The input picker that controls how the quantity is increased/decreased"
+msgstr ""
+
+#: templates/settings/product-variation-settings.php:22
+msgid "The minimum quantity a customer has to order of this variation."
+msgstr ""
+
+#: templates/settings/product-variation-settings.php:35
+msgid "The maximum quantity a customer can add to same order of this variation."
+msgstr ""

@@ -1,0 +1,58 @@
+{
+    "name": "barn2/woocommerce-bulk-variations",
+    "description": "WooCommerce Bulk Variations plugin",
+    "type": "wordpress-plugin",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Barn2 Plugins",
+            "email": "support@barn2.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Barn2\\Plugin\\WC_Bulk_Variations\\": "src",
+            "Barn2\\WBV_Lib\\": "lib",
+            "WPTRT\\AdminNotices\\": "lib/vendor/admin-notices/src"
+        },
+        "files": [
+			"src/template-functions.php"
+        ],
+        "classmap": [
+            "dependencies/src"
+        ]    
+    },
+	"require-dev": {
+	    "barn2/php-standards": "dev-master",
+        "barn2/setup-wizard": "^1.0",
+        "bamarni/composer-bin-plugin": "^1.8"
+	},
+	"repositories": [
+	    {
+	        "type": "vcs",
+	        "url": "git@bitbucket.org:barn2plugins/php-standards.git"
+	    },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:barn2plugins/setup-wizard.git"
+        }
+	],
+    "scripts": {
+		"no-dev": "composer update --prefer-dist --no-dev",
+        "install-scoper": [
+            "composer bin php-scoper config minimum-stability dev",
+            "composer bin php-scoper config prefer-stable true",
+            "composer bin php-scoper require --dev humbug/php-scoper"
+        ],
+        "scoper": "vendor/bin/php-scoper add-prefix --config .scoper.inc.php --output-dir dependencies/"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "composer/installers": true,
+            "bamarni/composer-bin-plugin": true
+        }
+    }
+}

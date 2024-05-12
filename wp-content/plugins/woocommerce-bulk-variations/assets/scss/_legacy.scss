@@ -1,0 +1,17 @@
+.wc-bulk-variations-table{
+
+    &.legacy-grid {
+        grid-template-columns: 1fr repeat( var(--cols), 1fr );
+
+        &.row-header-images, &.both-header-images {
+            grid-template-columns: 2fr repeat( var(--cols), 1fr );
+        }
+
+        &.vert {
+            &.col-header-images, &.both-header-images {
+                grid-template-columns: 2fr repeat( var(--cols), 1fr );
+            }
+        }
+    }
+
+}

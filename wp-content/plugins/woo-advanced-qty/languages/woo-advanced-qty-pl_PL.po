@@ -1,0 +1,97 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Qty\n"
+"POT-Creation-Date: 2015-08-19 11:20+0200\n"
+"PO-Revision-Date: 2015-08-19 15:40+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-Basepath: ../admin\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: class-woo-advanced-qty-admin.php:67 class-woo-advanced-qty-admin.php:118
+#: class-woo-advanced-qty-admin.php:133 class-woo-advanced-qty-admin.php:157
+msgid "Advanced quantity minimum"
+msgstr "Ilość minimalna"
+
+#: class-woo-advanced-qty-admin.php:69
+msgid "The minimum quantity a customer has to order of this product."
+msgstr "Minimalna ilość jaką klient musi zamówić."
+
+#: class-woo-advanced-qty-admin.php:78 class-woo-advanced-qty-admin.php:120
+#: class-woo-advanced-qty-admin.php:135 class-woo-advanced-qty-admin.php:167
+msgid "Advanced quantity step"
+msgstr "Krok zmiany ilości"
+
+#: class-woo-advanced-qty-admin.php:80 class-woo-advanced-qty-admin.php:168
+msgid "The step between allowed quantities."
+msgstr "Krok zwiększenia lub zmniejszenia ilości."
+
+#: class-woo-advanced-qty-admin.php:89 class-woo-advanced-qty-admin.php:122
+#: class-woo-advanced-qty-admin.php:137 class-woo-advanced-qty-admin.php:177
+msgid "Advanced quantity maximum"
+msgstr "Ilość maksymalna"
+
+#: class-woo-advanced-qty-admin.php:91
+msgid "The maximum quantity a customer can add to same order of this product."
+msgstr "Maksymalna ilość jaką klient może zamówić jednorazowo."
+
+#: class-woo-advanced-qty-admin.php:100 class-woo-advanced-qty-admin.php:124
+#: class-woo-advanced-qty-admin.php:139 class-woo-advanced-qty-admin.php:187
+msgid "Advanced quantity standard value"
+msgstr "Ilość domyślna"
+
+#: class-woo-advanced-qty-admin.php:102
+msgid "The standard value the quantity fields shows."
+msgstr "Domyślna wartoś dla pola z ilością."
+
+#: class-woo-advanced-qty-admin.php:152
+msgid "Advanced Quantity"
+msgstr "Zaawansowane ilości"
+
+#: class-woo-advanced-qty-admin.php:158
+msgid "The minimum quantity a customer has to order of products."
+msgstr "Minimalna ilość jaką klient musi zamówić."
+
+#: class-woo-advanced-qty-admin.php:162
+msgid ""
+"The minimum quantity a customer has to order of products. Type \"0\" to "
+"deactivate."
+msgstr ""
+"Minimalna ilość jaką klient musi zamówić. Wpisz \"0\" żeby wyłączyć to "
+"ograniczenie."
+
+#: class-woo-advanced-qty-admin.php:172
+msgid "The step between allowed quantities. Type \"0\" to deactivate."
+msgstr ""
+"Krok zwiększenia lub zmniejszenia ilości. Wpisz \"0\" jeżeli nie chcesz "
+"zmieniać ustawienia domyślnego."
+
+#: class-woo-advanced-qty-admin.php:178
+msgid "The maximum quantity a customer can add to same order of products."
+msgstr "Maksymalna ilość jaką klient może zamówić jednorazowo."
+
+#: class-woo-advanced-qty-admin.php:182
+msgid ""
+"The maximum quantity a customer can add to same order of products. Type "
+"\"0\" to deactivate."
+msgstr ""
+"Maksymalna ilość jaką klient może zamówić jednorazowo. Wpisz \"0\" żeby "
+"wyłączyć to ograniczenie."
+
+#: class-woo-advanced-qty-admin.php:188
+msgid "The standard value for the quantity fields."
+msgstr "Domyślna wartoś dla pola z ilością."
+
+#: class-woo-advanced-qty-admin.php:192
+msgid "The standard value for the quantity fields. Type \"0\" to deactivate."
+msgstr ""
+"Domyślna wartoś dla pola z ilością. Wpisz \"0\" jeżeli nie chcesz ustawiać "
+"wartości domyślnej."

@@ -1,0 +1,152 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-03-03 07:01+0100\n"
+"PO-Revision-Date: 2016-03-03 07:42+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/class-woo-advanced-qty-admin.php:62
+msgid "WooCommerce Advanced Quantity"
+msgstr "Mindestbestellmenge"
+
+#: admin/class-woo-advanced-qty-admin.php:83
+msgid "Minimum"
+msgstr "Minimum"
+
+#: admin/class-woo-advanced-qty-admin.php:85
+msgid "The minimum quantity a customer has to order of this product."
+msgstr "Mindestbestellmenge pro Produkt und pro Bestellung:"
+
+#: admin/class-woo-advanced-qty-admin.php:94
+msgid "Maximum"
+msgstr "Maximum"
+
+#: admin/class-woo-advanced-qty-admin.php:96
+msgid "The maximum quantity a customer can add to same order of this product."
+msgstr "Das Maximum für dieses Produktpaket."
+
+#: admin/class-woo-advanced-qty-admin.php:105
+msgid "Step"
+msgstr "Schritt"
+
+#: admin/class-woo-advanced-qty-admin.php:107
+#: admin/class-woo-advanced-qty-admin.php:214
+msgid "The step between allowed quantities."
+msgstr "Die Schritte die erlaubt sind."
+
+#: admin/class-woo-advanced-qty-admin.php:116
+msgid "Standard value"
+msgstr "Standard-Wert"
+
+#: admin/class-woo-advanced-qty-admin.php:118
+msgid "The standard value the quantity fields shows."
+msgstr "Der Standardwert der Mengenfelder zeigt."
+
+#: admin/class-woo-advanced-qty-admin.php:131
+msgid "Price Suffix"
+msgstr "Zusätzlicher Anhang zum Preis"
+
+#: admin/class-woo-advanced-qty-admin.php:133
+msgid "Text to add after price (example: pr. 100g)"
+msgstr "Text nach Preis hinzugefügt werden (Beispiel: PR. 100g)"
+
+#: admin/class-woo-advanced-qty-admin.php:150
+#: admin/class-woo-advanced-qty-admin.php:167
+#: admin/class-woo-advanced-qty-admin.php:193
+msgid "Advanced quantity minimum"
+msgstr "Erweiterte Konfiguration Mindestbestellmenge"
+
+#: admin/class-woo-advanced-qty-admin.php:152
+#: admin/class-woo-advanced-qty-admin.php:169
+#: admin/class-woo-advanced-qty-admin.php:203
+msgid "Advanced quantity maximum"
+msgstr "Erweiterte Konfiguration maximale Anzahl der Produkte"
+
+#: admin/class-woo-advanced-qty-admin.php:154
+#: admin/class-woo-advanced-qty-admin.php:171
+#: admin/class-woo-advanced-qty-admin.php:213
+msgid "Advanced quantity step"
+msgstr "Erweiterte Konfiguration Schritte"
+
+#: admin/class-woo-advanced-qty-admin.php:156
+#: admin/class-woo-advanced-qty-admin.php:173
+#: admin/class-woo-advanced-qty-admin.php:223
+msgid "Advanced quantity standard value"
+msgstr "Erweiterte Konfiguration Standardwert"
+
+#: admin/class-woo-advanced-qty-admin.php:158
+#: admin/class-woo-advanced-qty-admin.php:175
+msgid "Advanced quantity price suffix"
+msgstr "Erweiterte Menge Preis suffix"
+
+#: admin/class-woo-advanced-qty-admin.php:188
+msgid "Advanced Quantity"
+msgstr "Erweiterte Konfiguration Anzahl/Schritte"
+
+#: admin/class-woo-advanced-qty-admin.php:194
+msgid "The minimum quantity a customer has to order of products."
+msgstr "Mindestbestellmenge pro Produkt und pro Bestellung:"
+
+#: admin/class-woo-advanced-qty-admin.php:198
+msgid ""
+"The minimum quantity a customer has to order of products. Type \"0\" to "
+"deactivate."
+msgstr ""
+"Mindestbestellmenge pro Produkt und pro Bestellung die ein Kunden eingeben "
+"darf. Geben Sie \"0\" ein um diese Funktion zu deaktivieren."
+
+#: admin/class-woo-advanced-qty-admin.php:204
+msgid "The maximum quantity a customer can add to same order of products."
+msgstr ""
+"Maximale Anzahl pro Produkt und pro Bestellung die ein Kunden eingeben darf."
+
+#: admin/class-woo-advanced-qty-admin.php:208
+msgid ""
+"The maximum quantity a customer can add to same order of products. Type "
+"\"0\" to deactivate."
+msgstr ""
+"Maximale Anzahl pro Produkt und pro Bestellung die ein Kunden eingeben darf. "
+"Geben Sie \"0\" ein um diese Funktion zu deaktivieren."
+
+#: admin/class-woo-advanced-qty-admin.php:218
+msgid "The step between allowed quantities. Type \"0\" to deactivate."
+msgstr ""
+"Der Schritt zwischen zulässigen Mengen. Geben Sie \"0\" ein um diese "
+"Funktion zu deaktivieren."
+
+#: admin/class-woo-advanced-qty-admin.php:224
+msgid "The standard value for the quantity fields."
+msgstr "Der Standardwert für die Mengenfelder."
+
+#: admin/class-woo-advanced-qty-admin.php:228
+msgid "The standard value for the quantity fields. Type \"0\" to deactivate."
+msgstr ""
+"Der Standardwert für die Mengenfelder. Geben Sie \"0\" ein um diese Funktion "
+"zu deaktivieren."
+
+#: includes/morningtrain_updateChecker.class.php:82
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+"Ein unerwarteter HTTP Fehler trat während der API Abfrage auf.</p> <p><a "
+"href=\"?\" onclick=\"document.location.reload(); return false;\">Nochmal "
+"versuchen</a>"
+
+#: includes/morningtrain_updateChecker.class.php:88
+msgid "An unknown error occurred"
+msgstr "Ein unbekannter Fehler ist aufgetreten"
+
+#: public/class-woo-advanced-qty-public.php:342
+msgid "You did not add a correct quantity to the cart."
+msgstr "Sie haben nicht die richtige Menge in den Warenkorb hinzugefügt."

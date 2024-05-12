@@ -1,0 +1,31 @@
+.wcbvp-sw-attribute-select {
+	margin-top:-2em;
+}
+
+.wcbvp-sw-select {
+	> label.components-base-control__label {
+		display: none;
+	}
+}
+
+.wcbvp-sw-main-checkbox {
+	.components-base-control__field {
+		display: flex;
+	}
+	
+	label.components-checkbox-control__label{
+		font-size:16px;
+	}
+}
+
+.wcbvp-complete-button ~ .wcbvp-complete-button {
+	margin-left: 8px;
+}
+
+.wcbvp-image-container {
+    width: 200px;
+    height: 160px;
+    margin: 0 auto;
+    padding: 0!important;
+    margin-bottom: 20px!important;
+}

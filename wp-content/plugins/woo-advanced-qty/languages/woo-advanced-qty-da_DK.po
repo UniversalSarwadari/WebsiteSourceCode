@@ -1,0 +1,406 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Advanced Quantity\n"
+"POT-Creation-Date: 2020-10-14 10:27+0200\n"
+"PO-Revision-Date: 2020-10-14 10:30+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/morningtrain_updateChecker.class.php:83
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+"Der opstod en uventet HTTP-fejl under API-anmodningen. </p><p> <a href=“?” "
+"onclick=“document.location.reload(); return false;”>Prøv igen</a>"
+
+#: includes/morningtrain_updateChecker.class.php:87
+msgid "An unknown error occurred"
+msgstr "En ukendt fejl opstod"
+
+#: lib/modules/admin-tools/traits/trait.admin-crud.php:661
+msgid "Edit field group"
+msgstr "Rediger feltgruppe"
+
+#: plugin/controllers/controller.dependencies.php:54
+#, php-format
+msgid ""
+"Requires WooCommerce to be installed and activated. You can download %s here."
+msgstr ""
+"Kræver at WooCommerce er installeret og aktiveret. Du kan downloade %s her."
+
+#: plugin/controllers/controller.global-settings.php:35
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: plugin/controllers/controller.global-settings.php:53
+#: plugin/controllers/controller.global-settings.php:80
+#: templates/settings/category-settings-add.php:5
+#: templates/settings/category-settings-edit.php:8
+msgid "Advanced Quantity"
+msgstr "Avanceret antal"
+
+#: plugin/controllers/controller.global-settings.php:83
+msgid "Set to \"0\" to deactivate the global values."
+msgstr "Sæt til “0” for at deaktiveret de globale værdier."
+
+#: plugin/controllers/controller.global-settings.php:86
+#: templates/settings/category-settings-add.php:8
+#: templates/settings/category-settings-edit.php:13
+#: templates/settings/product-settings-tab.php:16
+#: templates/settings/product-variation-settings.php:20
+msgid "Minimum"
+msgstr "Minimum"
+
+#: plugin/controllers/controller.global-settings.php:87
+msgid "This controls the minimum a customer can add to an order of products"
+msgstr ""
+"Det maksimale antal, som en kunde kan købe i den samme ordre af produkter"
+
+#: plugin/controllers/controller.global-settings.php:96
+#: templates/settings/category-settings-add.php:12
+#: templates/settings/category-settings-edit.php:21
+#: templates/settings/product-settings-tab.php:27
+#: templates/settings/product-variation-settings.php:33
+msgid "Maximum"
+msgstr "Maksimum"
+
+#: plugin/controllers/controller.global-settings.php:97
+msgid "This controls the maximum a customer can add to an order of a product."
+msgstr ""
+"Det maksimale antal, som en kunde kan købe i den samme ordre af produkter."
+
+#: plugin/controllers/controller.global-settings.php:106
+#: templates/settings/category-settings-add.php:16
+#: templates/settings/category-settings-edit.php:29
+#: templates/settings/product-settings-tab.php:38
+#: templates/settings/product-variation-settings.php:46
+msgid "Step"
+msgstr "Trin"
+
+#: plugin/controllers/controller.global-settings.php:107
+msgid "This controls the way that quantity increments."
+msgstr "Denne kontrollere måden som antallet stiger/falder."
+
+#: plugin/controllers/controller.global-settings.php:116
+#: templates/settings/category-settings-add.php:20
+#: templates/settings/category-settings-edit.php:37
+#: templates/settings/product-settings-tab.php:49
+#: templates/settings/product-variation-settings.php:59
+msgid "Step intervals"
+msgstr "Trin interval"
+
+#: plugin/controllers/controller.global-settings.php:117
+msgid ""
+"Example: 0,10,5|10,100,10 which means from 0 to 10 it will increase by 5 and "
+"10 to 100 will increase with 10."
+msgstr ""
+"Eksempel: 0,10,5|10,100,10 som betyder at fra 0 til 10 vil antallet stige "
+"med 5 og fra 10 til 100 vil antallet stige med 10."
+
+#: plugin/controllers/controller.global-settings.php:126
+#: templates/settings/category-settings-add.php:24
+#: templates/settings/category-settings-edit.php:45
+#: templates/settings/product-settings-tab.php:61
+#: templates/settings/product-variation-settings.php:73
+msgid "Standard value"
+msgstr "Standard værdi"
+
+#: plugin/controllers/controller.global-settings.php:127
+msgid "This controls the standard value for the quantity fields."
+msgstr "Denne kontrollere standard værdien for antal felter."
+
+#: plugin/controllers/controller.global-settings.php:136
+#: plugin/controllers/controller.global-settings.php:186
+#: templates/settings/category-settings-add.php:28
+#: templates/settings/category-settings-edit.php:53
+#: templates/settings/product-settings-tab.php:75
+msgid "Price suffix"
+msgstr "Pris endelse"
+
+#: plugin/controllers/controller.global-settings.php:137
+msgid "This controls the price suffix."
+msgstr "Denne kontrollere pris endelsen."
+
+#: plugin/controllers/controller.global-settings.php:145
+#: plugin/controllers/controller.global-settings.php:193
+#: templates/settings/category-settings-add.php:32
+#: templates/settings/category-settings-edit.php:61
+#: templates/settings/product-settings-tab.php:85
+msgid "Quantity suffix"
+msgstr "Avanceret pris endelse"
+
+#: plugin/controllers/controller.global-settings.php:146
+msgid "This controls the quantity suffix fields."
+msgstr "Denne kontrollere antal endelsen."
+
+#: plugin/controllers/controller.global-settings.php:154
+#: templates/settings/category-settings-add.php:36
+#: templates/settings/category-settings-edit.php:69
+#: templates/settings/product-settings-tab.php:95
+msgid "Display Price Factor"
+msgstr "Prisvisning faktor"
+
+#: plugin/controllers/controller.global-settings.php:155
+#: templates/settings/product-settings-tab.php:97
+msgid ""
+"Factor to multiply the display price. Example: Can be used for displaying "
+"prices for kilos while the quantity follows grams"
+msgstr ""
+"Faktor til at gange visningsprisen op med. Eksempel: Kan bruges til at vise "
+"priser baseret på kilo, mens antal følger gram"
+
+#: plugin/controllers/controller.global-settings.php:164
+#: plugin/controllers/controller.global-settings.php:200
+#: templates/settings/category-settings-add.php:39
+#: templates/settings/category-settings-edit.php:77
+#: templates/settings/product-settings-tab.php:109
+msgid "Input picker"
+msgstr "Indtastning vælger"
+
+#: plugin/controllers/controller.global-settings.php:165
+#: plugin/controllers/controller.global-settings.php:201
+msgid "This controls the input type for the quantity field."
+msgstr "Denne kontrollere indtastnings type for antal feltet."
+
+#: plugin/controllers/controller.global-settings.php:180
+msgid "Cart"
+msgstr "Kurv"
+
+#: plugin/controllers/controller.global-settings.php:183
+msgid "Settings for the cart page"
+msgstr "Indstillinger for kurven"
+
+#: plugin/controllers/controller.global-settings.php:187
+msgid "Show the price suffix on the cart page."
+msgstr "Vis pris endelse på kurv siden."
+
+#: plugin/controllers/controller.global-settings.php:194
+msgid "Show the quantity suffix on the cart page."
+msgstr "Vis antal endelsen på kurv siden."
+
+#: plugin/controllers/controller.global-settings.php:205
+msgid "Follow the product setting"
+msgstr "Følg global indstilling"
+
+#: plugin/controllers/controller.global-settings.php:210
+msgid "Automatic cart refresh"
+msgstr "Automatisk kurv genindlæsning"
+
+#: plugin/controllers/controller.global-settings.php:211
+msgid "Automatically update cart on quantity change"
+msgstr "Automatisk opdatere kurven når antal ændres"
+
+#: plugin/controllers/controller.global-settings.php:218
+msgid "Hide update button"
+msgstr "Skjul opdater knappen"
+
+#: plugin/controllers/controller.global-settings.php:219
+msgid ""
+"Only a good idea if Automatic cart refresh is activated or something else "
+"handles cart refresh"
+msgstr ""
+"Kun en god ide hvis Automatisk kurv genindlæsning er aktiveret eller noget "
+"andet styrer kurv genindlæsningen"
+
+#: plugin/controllers/controller.global-settings.php:233
+msgid "Misc"
+msgstr "Andet"
+
+#: plugin/controllers/controller.global-settings.php:236
+msgid "Miscellaneous settings"
+msgstr "Andre indstillinger"
+
+#: plugin/controllers/controller.global-settings.php:239
+msgid "Dropdown on mobile"
+msgstr "Dropdown på mobil"
+
+#: plugin/controllers/controller.global-settings.php:240
+msgid "Force dropdown input for mobile, to avoid invalid quantity selection"
+msgstr "Tvinge dropdown til mobile, for at undgå ugyldige antal"
+
+#: plugin/controllers/controller.product-settings.php:33
+#: plugin/controllers/controller.product-variation-settings.php:91
+msgid "WooCommerce Advanced Quantity"
+msgstr "WooCommerce Avanceret Antal"
+
+#: plugin/controllers/controller.product-variation-settings.php:93
+msgid "Toggle \"WooCommerce Advanced Quantity\""
+msgstr "Slå \"WooCommerce Advanced Quantity\" til/fra"
+
+#: plugin/controllers/controller.quantity.php:223
+#, php-format
+msgid ""
+"The maximum quantity allowed to purchase of this product is %s. You already "
+"have %s in your cart."
+msgstr ""
+"Det maksimale antal, der må købes af dette produkt, er %s. Du har allerede "
+"%s i din indkøbsvogn."
+
+#: plugin/controllers/controller.quantity.php:225
+#: plugin/controllers/controller.quantity.php:269
+#, php-format
+msgid "The maximum quantity allowed to purchase of this product is %s."
+msgstr "Det maksimale antal, der må købes af dette produkt, er %s."
+
+#: plugin/controllers/controller.quantity.php:232
+#: plugin/controllers/controller.quantity.php:275
+#, php-format
+msgid "You must purchase at least %s of this product."
+msgstr "Du skal købe mindst %s af dette produkt."
+
+#: plugin/controllers/controller.quantity.php:240
+#: plugin/controllers/controller.quantity.php:282
+#, php-format
+msgid "You did not add a valid quantity to the cart. Try to add %s instead."
+msgstr ""
+"Du har ikke tilføjet et gyldigt antal til indkøbsvognen. Prøv at tilføje %s "
+"i stedet."
+
+#: plugin/input-types/default-input/class.default-input.php:13
+msgid "Default"
+msgstr "Standard"
+
+#: plugin/input-types/dropdown/class.dropdown.php:14
+msgid "Dropdown"
+msgstr "Dropdowm"
+
+#: plugin/input-types/global-input/class.global-input.php:12
+msgid "Follow parent setting"
+msgstr "Følg nedarvet indstilling"
+
+#: plugin/input-types/plus-minus-input/class.plus-minus-input.php:14
+msgid "+/-"
+msgstr "+/-"
+
+#: plugin/input-types/slider/class.slider.php:14
+msgid "Slider"
+msgstr "Slider"
+
+#: templates/settings/category-settings-add.php:21
+#: templates/settings/category-settings-edit.php:40
+#: templates/settings/product-settings-tab.php:51
+#: templates/settings/product-variation-settings.php:61
+msgid "Example: 0,10,5|10,100,10"
+msgstr "Eksempel: 0,10,5|10,100,10"
+
+#: templates/settings/product-settings-tab.php:18
+msgid "The minimum quantity a customer has to order of this product."
+msgstr "Det mindste antal, en kunde skal købe af dette produkt."
+
+#: templates/settings/product-settings-tab.php:29
+msgid "The maximum quantity a customer can add to same order of this product."
+msgstr "Det maksimale antal en kunde kan købe i samme odre af dette produkt."
+
+#: templates/settings/product-settings-tab.php:40
+#: templates/settings/product-variation-settings.php:48
+msgid "The step between allowed quantities."
+msgstr "Strin mellem tilladte antal."
+
+#: templates/settings/product-settings-tab.php:53
+#: templates/settings/product-variation-settings.php:63
+msgid ""
+"The step between allowed quantities intervals (example: 0,10,5|10,100,10) "
+"which means from 0 to 10 it will increase by 5 and 10 to 100 will increase "
+"with 10"
+msgstr ""
+"Trin mellem tilladte intervaller (F.eks.: 0,10,5|10,100,10) som betyder at "
+"fra 0 til 10 vil antallet stige med 5 og fra 10 til 100 vil antallet stige "
+"med 10"
+
+#: templates/settings/product-settings-tab.php:63
+#: templates/settings/product-variation-settings.php:75
+msgid "The standard value the quantity fields shows."
+msgstr "Det antal, som feltet antal skal vise fra start af."
+
+#: templates/settings/product-settings-tab.php:77
+msgid "Text to add after price (example: pr. 100g)"
+msgstr "Tekst, som skal vises efter prisen (eksempel: pr. 100g)"
+
+#: templates/settings/product-settings-tab.php:87
+msgid "Text to add after chosen quantity (example: x 100 g)"
+msgstr "Tekst, som skal vises efter antal (eksempel: pr. 100g)"
+
+#: templates/settings/product-settings-tab.php:111
+msgid "The input picker that controls how the quantity is increased/decreased"
+msgstr "Indtastnings vælgeren der kontrollere hvordan antallet stiger/falder"
+
+#: templates/settings/product-variation-settings.php:22
+msgid "The minimum quantity a customer has to order of this variation."
+msgstr "Det mindste antal, en kunde skal købe af dette produkt."
+
+#: templates/settings/product-variation-settings.php:35
+msgid ""
+"The maximum quantity a customer can add to same order of this variation."
+msgstr "Det maksimale antal en kunde kan købe i samme odre af dette produkt."
+
+#~ msgid "Thousands separator"
+#~ msgstr "Tusind separator"
+
+#~ msgid "Separate thousands on the Slider type"
+#~ msgstr "Separere tusinder på Slider typen"
+
+#~ msgid "Example: 1.000, 10.000, 100.000"
+#~ msgstr "Eksempel: 1.000, 10.000, 100.000"
+
+#~ msgid "Individually Variations"
+#~ msgstr "Individuelle Variationer"
+
+#~ msgid "Make it able to buy stock quantity for each variation."
+#~ msgstr "Gøre det muligt at købe lager antal for hver variation."
+
+#~ msgid "You have reached the maximum."
+#~ msgstr "Du har ramt maksimum."
+
+#~ msgid "This controls the standard price suffix for the price suffix fields."
+#~ msgstr "Denne kontrollere pris endelsen"
+
+#~ msgid "Advanced quantity minimum"
+#~ msgstr "Avanceret minimum antal"
+
+#~ msgid "Advanced quantity maximum"
+#~ msgstr "Avanceret maksimal antal"
+
+#~ msgid "Advanced quantity step"
+#~ msgstr "Avanceret step mellem antal"
+
+#~ msgid "Advanced quantity standard value"
+#~ msgstr "Avanceret standard antal"
+
+#~ msgid "The minimum quantity a customer has to order of products."
+#~ msgstr "Det mindste antal en kunde skal købe af produkter."
+
+#~ msgid ""
+#~ "The minimum quantity a customer has to order of products. Type \"0\" to "
+#~ "deactivate."
+#~ msgstr ""
+#~ "Det mindste antal en kunde skal købe af produkter. Indtast \"0\" for at "
+#~ "deaktivere."
+
+#~ msgid ""
+#~ "The maximum quantity a customer can add to same order of products. Type "
+#~ "\"0\" to deactivate."
+#~ msgstr ""
+#~ "Det makasimale antal, som en kunde kan købe i den samme ordre af "
+#~ "produkter. Indtast \"0\" for at deaktivere."
+
+#~ msgid "The step between allowed quantities. Type \"0\" to deactivate."
+#~ msgstr ""
+#~ "Det antal der er mellem hvert tilladt step. Indtast \"0\" for at "
+#~ "deaktivere."
+
+#~ msgid ""
+#~ "The standard value for the quantity fields. Type \"0\" to deactivate."
+#~ msgstr ""
+#~ "The standard value for the quantity fields. Indtast \"0\" for at "
+#~ "deaktivere."

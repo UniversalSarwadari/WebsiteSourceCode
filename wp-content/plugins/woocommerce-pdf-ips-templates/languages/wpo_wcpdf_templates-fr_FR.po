@@ -1,0 +1,814 @@
+# Copyright (C) 2021 Ewout Fernhout
+# This file is distributed under the same license as the PDF Invoices & Packing Slips for WooCommerce - Premium Templates plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: PDF Invoices & Packing Slips for WooCommerce Premium "
+"Templates 2.10.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-pdf-"
+"ips-templates\n"
+"POT-Creation-Date: 2023-09-05T20:12:11+00:00\n"
+"PO-Revision-Date: 2023-11-29 00:32-0500\n"
+"Last-Translator: WP Overnight <support@wpovernight.com>\n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.4.1\n"
+"X-Domain: wpo_wcpdf_templates\n"
+
+#. Plugin Name of the plugin
+#: woocommerce-pdf-ips-templates.php:362
+msgid "PDF Invoices & Packing Slips for WooCommerce - Premium Templates"
+msgstr "PDF Invoices & Packing Slips for WooCommerce - Premium Templates"
+
+#. Plugin URI of the plugin
+msgid ""
+"https://wpovernight.com/downloads/woocommerce-pdf-invoices-packing-slips-"
+"premium-templates/"
+msgstr ""
+"https://wpovernight.com/downloads/woocommerce-pdf-invoices-packing-slips-"
+"premium-templates/"
+
+#. Description of the plugin
+msgid ""
+"Premium templates for the PDF Invoices & Packing Slips for WooCommerce "
+"extension"
+msgstr ""
+"Modèles premium pour l’extension PDF Invoices & Packing Slips for WooCommerce"
+
+#. Author of the plugin
+msgid "WP Overnight"
+msgstr "WP Overnight"
+
+#. Author URI of the plugin
+msgid "https://wpovernight.com/"
+msgstr "https://wpovernight.com/"
+
+#. translators: php version
+#: includes/class-wcpdf-templates-dependencies.php:120
+msgid ""
+"PDF Invoices & Packing Slips for WooCommerce - Premium Templates requires "
+"PHP %s or higher."
+msgstr ""
+"PDF Invoices & Packing Slips for WooCommerce - Premium Templates nécessite "
+"PHP %s ou une version plus récente."
+
+#: includes/class-wcpdf-templates-dependencies.php:123
+msgid "How to update your PHP version"
+msgstr "Comment mettre à jour votre version de PHP"
+
+#. translators: <a> tags
+#: includes/class-wcpdf-templates-dependencies.php:159
+msgid ""
+"PDF Invoices & Packing Slips for WooCommerce - Premium Templates requires "
+"%1$sWooCommerce%2$s to be installed & activated!"
+msgstr ""
+"PDF Invoices & Packing Slips for WooCommerce - Premium Templates nécessite "
+"l’installation et l’activation de %1$sWooCommerce%2$s !"
+
+#. translators: 1: WooCommerce version, 2 & 3: <a> tags
+#: includes/class-wcpdf-templates-dependencies.php:175
+msgid ""
+"PDF Invoices & Packing Slips for WooCommerce - Premium Templates requires at "
+"least version %1$s of WooCommerce to be installed. %2$sGet the latest "
+"version here%3$s!"
+msgstr ""
+"PDF Invoices & Packing Slips for WooCommerce - Premium Templates nécessite "
+"au minimum l’installation de la version %1$s de WooCommerce. %2$sObtenir la "
+"dernière version ici%3$s !"
+
+#. translators: 1: base plugin version, 2 & 3: <a> tags
+#: includes/class-wcpdf-templates-dependencies.php:194
+msgid ""
+"PDF Invoices & Packing Slips for WooCommerce - Premium Templates requires at "
+"least version %1$s of PDF Invoices & Packing Slips for WooCommerce - %2$sget "
+"it here%3$s!"
+msgstr ""
+"PDF Invoices & Packing Slips for WooCommerce - Premium Templates nécessite "
+"au moins la version %1$s de PDF Invoices & Packing Slips for WooCommerce - "
+"%2$sget it here%3$s !"
+
+#. translators: <a> tags
+#: includes/class-wcpdf-templates-dependencies.php:213
+msgid ""
+"PDF Invoices & Packing Slips for WooCommerce - Premium Templates requires "
+"the free base plugin to be activated! %1$sActivate it here!%2$s"
+msgstr ""
+"PDF Invoices & Packing Slips for WooCommerce - Premium Templates nécessite "
+"l’activation du plugin de base gratuit ! %1$sActive-le ici !%2$s"
+
+#. translators: 1: base plugin version, 2 & 3: <a> tags
+#: includes/class-wcpdf-templates-dependencies.php:231
+msgid ""
+"PDF Invoices & Packing Slips for WooCommerce - Premium Templates requires at "
+"least version %1$s of PDF Invoices & Packing Slips for WooCommerce. "
+"%2$sUpgrade to the latest version here%3$s!"
+msgstr ""
+"PDF Invoices & Packing Slips for WooCommerce - Premium Templates nécessite "
+"au moins la version %1$s de PDF Invoices & Packing Slips for WooCommerce. "
+"%2$sMets-toi à jour vers la dernière version ici%3$s !"
+
+#: includes/class-wcpdf-templates-main.php:287
+#: includes/class-wcpdf-templates-main.php:700
+#: includes/class-wcpdf-templates-settings.php:554
+#: includes/class-wcpdf-templates-settings.php:831
+msgid "VAT"
+msgstr "TVA"
+
+#: includes/class-wcpdf-templates-main.php:441
+#: includes/class-wcpdf-templates-settings.php:619
+#: includes/class-wcpdf-templates-settings.php:892
+msgid "Total weight"
+msgstr "Poids total"
+
+#: includes/class-wcpdf-templates-main.php:449
+#: includes/class-wcpdf-templates-settings.php:906
+msgid "Total quantity"
+msgstr "Quantité totale"
+
+#: includes/class-wcpdf-templates-main.php:694
+#: includes/class-wcpdf-templates-settings.php:497
+msgid "Regular price"
+msgstr "Prix normal"
+
+#: includes/class-wcpdf-templates-main.php:703
+#: includes/class-wcpdf-templates-settings.php:594
+msgid "Tax rate"
+msgstr "Taux de taxation"
+
+#: includes/class-wcpdf-templates-main.php:709
+msgid "Dimensions"
+msgstr "Dimensions"
+
+#: includes/class-wcpdf-templates-main.php:718
+#: includes/class-wcpdf-templates-settings.php:665
+msgid "Product description"
+msgstr "Description du produit"
+
+#: includes/class-wcpdf-templates-main.php:721
+msgid "Categories"
+msgstr "Catégories"
+
+#: includes/class-wcpdf-templates-main.php:724
+msgid "Variation"
+msgstr "Variation"
+
+#: includes/class-wcpdf-templates-main.php:1505
+msgid "Paid"
+msgstr "Payé"
+
+#: includes/class-wcpdf-templates-main.php:1505
+msgid "Unpaid"
+msgstr "Non payé"
+
+#: includes/class-wcpdf-templates-main.php:2790
+msgid "Required when using the {{spelled_out_total}} placeholder"
+msgstr ""
+"Obligatoire lors de l’utilisation de l’espace réservé {{spelled_out_total}}."
+
+#: includes/class-wcpdf-templates-settings.php:64
+msgid ""
+"The <strong>Simple</strong> template has limited compatibilty with the "
+"Customizer. You will need to switch your template to a premium one, e.g. "
+"<strong>Simple Premium</strong>, if you want to take full advantage of the "
+"Customizer."
+msgstr ""
+"Le modèle <strong>Simple</strong> a une compatibilité limitée avec le "
+"personnalisateur. Vous devrez passer à un modèle premium, par exemple "
+"<strong>Simple Premium</strong>, si vous voulez profiter pleinement du "
+"personnalisateur."
+
+#: includes/class-wcpdf-templates-settings.php:265
+#: includes/class-wcpdf-templates-settings.php:1643
+msgid "Customizer"
+msgstr "Personnalisateur"
+
+#: includes/class-wcpdf-templates-settings.php:284
+msgid "Drag & drop any of these fields to the documents below"
+msgstr ""
+"Faites un glisser-déposer de l’un de ces champs vers les documents ci-dessous"
+
+#: includes/class-wcpdf-templates-settings.php:322
+msgid "Custom Styles"
+msgstr "Styles personnalisés"
+
+#: includes/class-wcpdf-templates-settings.php:328
+msgid "Enter any custom styles here to modify/override the template styles"
+msgstr ""
+"Saisissez ici tout style personnalisé pour modifier/supprimer les styles du "
+"modèle"
+
+#: includes/class-wcpdf-templates-settings.php:352
+msgid "Sort items by"
+msgstr "Trier les articles par"
+
+#: includes/class-wcpdf-templates-settings.php:354
+msgid "Default"
+msgstr "Par défaut"
+
+#: includes/class-wcpdf-templates-settings.php:355
+msgid "Product name"
+msgstr "Nom du produit"
+
+#: includes/class-wcpdf-templates-settings.php:356
+#: includes/class-wcpdf-templates-settings.php:374
+msgid "SKU"
+msgstr "UGS"
+
+#: includes/class-wcpdf-templates-settings.php:357
+msgid "Category"
+msgstr "Catégorie"
+
+#: includes/class-wcpdf-templates-settings.php:365
+#: includes/class-wcpdf-templates-settings.php:1225
+msgid "Position"
+msgstr "Position"
+
+#: includes/class-wcpdf-templates-settings.php:369
+#: includes/class-wcpdf-templates-settings.php:378
+#: includes/class-wcpdf-templates-settings.php:388
+#: includes/class-wcpdf-templates-settings.php:398
+#: includes/class-wcpdf-templates-settings.php:429
+#: includes/class-wcpdf-templates-settings.php:439
+#: includes/class-wcpdf-templates-settings.php:457
+#: includes/class-wcpdf-templates-settings.php:466
+#: includes/class-wcpdf-templates-settings.php:501
+#: includes/class-wcpdf-templates-settings.php:529
+#: includes/class-wcpdf-templates-settings.php:558
+#: includes/class-wcpdf-templates-settings.php:598
+#: includes/class-wcpdf-templates-settings.php:612
+#: includes/class-wcpdf-templates-settings.php:633
+#: includes/class-wcpdf-templates-settings.php:647
+#: includes/class-wcpdf-templates-settings.php:660
+#: includes/class-wcpdf-templates-settings.php:669
+#: includes/class-wcpdf-templates-settings.php:690
+#: includes/class-wcpdf-templates-settings.php:700
+#: includes/class-wcpdf-templates-settings.php:709
+#: includes/class-wcpdf-templates-settings.php:723
+#: includes/class-wcpdf-templates-settings.php:741
+#: includes/class-wcpdf-templates-settings.php:769
+#: includes/class-wcpdf-templates-settings.php:798
+#: includes/class-wcpdf-templates-settings.php:835
+#: includes/class-wcpdf-templates-settings.php:865
+#: includes/class-wcpdf-templates-settings.php:879
+#: includes/class-wcpdf-templates-settings.php:896
+#: includes/class-wcpdf-templates-settings.php:910
+#: includes/class-wcpdf-templates-settings.php:929
+msgid "Label"
+msgstr "Libellé"
+
+#: includes/class-wcpdf-templates-settings.php:379
+#: includes/class-wcpdf-templates-settings.php:389
+#: includes/class-wcpdf-templates-settings.php:399
+#: includes/class-wcpdf-templates-settings.php:430
+#: includes/class-wcpdf-templates-settings.php:440
+#: includes/class-wcpdf-templates-settings.php:467
+#: includes/class-wcpdf-templates-settings.php:502
+#: includes/class-wcpdf-templates-settings.php:530
+#: includes/class-wcpdf-templates-settings.php:559
+#: includes/class-wcpdf-templates-settings.php:599
+#: includes/class-wcpdf-templates-settings.php:613
+#: includes/class-wcpdf-templates-settings.php:634
+#: includes/class-wcpdf-templates-settings.php:670
+#: includes/class-wcpdf-templates-settings.php:691
+#: includes/class-wcpdf-templates-settings.php:742
+#: includes/class-wcpdf-templates-settings.php:770
+#: includes/class-wcpdf-templates-settings.php:799
+#: includes/class-wcpdf-templates-settings.php:836
+#: includes/class-wcpdf-templates-settings.php:866
+#: includes/class-wcpdf-templates-settings.php:880
+#: includes/class-wcpdf-templates-settings.php:897
+#: includes/class-wcpdf-templates-settings.php:911
+msgid "Use default"
+msgstr "Par défaut"
+
+#: includes/class-wcpdf-templates-settings.php:384
+msgid "Thumbnail"
+msgstr "Miniature"
+
+#: includes/class-wcpdf-templates-settings.php:394
+msgid "Product"
+msgstr "Produit"
+
+#: includes/class-wcpdf-templates-settings.php:403
+msgid "Show SKU"
+msgstr "Afficher l’UGS"
+
+#: includes/class-wcpdf-templates-settings.php:407
+msgid "Show weight"
+msgstr "Afficher le poids"
+
+#: includes/class-wcpdf-templates-settings.php:411
+msgid "Show meta data"
+msgstr "Afficher les métadonnées"
+
+#: includes/class-wcpdf-templates-settings.php:415
+msgid "Show third party plugin data"
+msgstr "Afficher les données externes de plugins"
+
+#: includes/class-wcpdf-templates-settings.php:420
+#: includes/class-wcpdf-templates-settings.php:705
+#: includes/class-wcpdf-templates-settings.php:714
+#: includes/class-wcpdf-templates-settings.php:925
+#: includes/class-wcpdf-templates-settings.php:934
+#: includes/class-wcpdf-templates-settings.php:1210
+#: includes/class-wcpdf-templates-settings.php:1286
+msgid "Text"
+msgstr "Texte"
+
+#: includes/class-wcpdf-templates-settings.php:425
+msgid "Quantity"
+msgstr "Quantité"
+
+#: includes/class-wcpdf-templates-settings.php:435
+msgid "Variation / item meta"
+msgstr "Variation / méta de l’article"
+
+#: includes/class-wcpdf-templates-settings.php:444
+msgid "Fallback to product variation data"
+msgstr "Retour aux données de variation du produit"
+
+#: includes/class-wcpdf-templates-settings.php:449
+msgid "Item meta (single)"
+msgstr "Méta de l’article (singulier)"
+
+#: includes/class-wcpdf-templates-settings.php:453
+msgid "Meta key / name"
+msgstr "Clé méta / nom"
+
+#: includes/class-wcpdf-templates-settings.php:462
+msgid "Price"
+msgstr "Prix"
+
+#: includes/class-wcpdf-templates-settings.php:472
+#: includes/class-wcpdf-templates-settings.php:507
+#: includes/class-wcpdf-templates-settings.php:535
+#: includes/class-wcpdf-templates-settings.php:564
+msgid "Single price"
+msgstr "Prix simple"
+
+#: includes/class-wcpdf-templates-settings.php:473
+#: includes/class-wcpdf-templates-settings.php:508
+#: includes/class-wcpdf-templates-settings.php:536
+#: includes/class-wcpdf-templates-settings.php:565
+msgid "Total price"
+msgstr "Prix total"
+
+#: includes/class-wcpdf-templates-settings.php:479
+#: includes/class-wcpdf-templates-settings.php:514
+#: includes/class-wcpdf-templates-settings.php:543
+#: includes/class-wcpdf-templates-settings.php:747
+#: includes/class-wcpdf-templates-settings.php:775
+#: includes/class-wcpdf-templates-settings.php:812
+#: includes/class-wcpdf-templates-settings.php:824
+#: includes/class-wcpdf-templates-settings.php:885
+msgid "Including tax"
+msgstr "Taxes comprises"
+
+#: includes/class-wcpdf-templates-settings.php:480
+#: includes/class-wcpdf-templates-settings.php:515
+#: includes/class-wcpdf-templates-settings.php:544
+#: includes/class-wcpdf-templates-settings.php:748
+#: includes/class-wcpdf-templates-settings.php:776
+#: includes/class-wcpdf-templates-settings.php:813
+#: includes/class-wcpdf-templates-settings.php:825
+#: includes/class-wcpdf-templates-settings.php:886
+msgid "Excluding tax"
+msgstr "Hors taxes"
+
+#: includes/class-wcpdf-templates-settings.php:486
+#: includes/class-wcpdf-templates-settings.php:571
+#: includes/class-wcpdf-templates-settings.php:754
+msgid "Before discount"
+msgstr "Avant remise"
+
+#: includes/class-wcpdf-templates-settings.php:487
+#: includes/class-wcpdf-templates-settings.php:572
+#: includes/class-wcpdf-templates-settings.php:755
+msgid "After discount"
+msgstr "Après remise"
+
+#: includes/class-wcpdf-templates-settings.php:492
+#: includes/class-wcpdf-templates-settings.php:549
+#: includes/class-wcpdf-templates-settings.php:581
+msgid "Show column only for discounted orders"
+msgstr "Afficher la colonne uniquement pour les commandes à prix réduit"
+
+#: includes/class-wcpdf-templates-settings.php:520
+msgid "Only show for items that sold for a sale price"
+msgstr "Afficher uniquement les articles vendus à un prix de vente"
+
+#: includes/class-wcpdf-templates-settings.php:525
+#: includes/class-wcpdf-templates-settings.php:765
+msgid "Discount"
+msgstr "Remise"
+
+#: includes/class-wcpdf-templates-settings.php:537
+msgid "Percent"
+msgstr "Pourcent"
+
+#: includes/class-wcpdf-templates-settings.php:577
+msgid "Split"
+msgstr "Diviser"
+
+#: includes/class-wcpdf-templates-settings.php:577
+msgid "Split 2 or more taxes in separated columns."
+msgstr "Répartir 2 taxes ou plus dans des colonnes séparées."
+
+#. translators: (—)
+#: includes/class-wcpdf-templates-settings.php:587
+msgid "Use a dash %s for zero taxes"
+msgstr "Utiliser un tiret %s pour les impôts nuls"
+
+#: includes/class-wcpdf-templates-settings.php:603
+msgid "Show tax rate name"
+msgstr "Afficher le nom du taux de taxe"
+
+#: includes/class-wcpdf-templates-settings.php:608
+msgid "Weight"
+msgstr "Poids"
+
+#: includes/class-wcpdf-templates-settings.php:618
+msgid "Single weight"
+msgstr "Poids unique"
+
+#: includes/class-wcpdf-templates-settings.php:624
+#: includes/class-wcpdf-templates-settings.php:901
+msgid "Append weight unit"
+msgstr "Ajouter une unité de poids"
+
+#: includes/class-wcpdf-templates-settings.php:629
+msgid "Product dimensions"
+msgstr "Dimensions du produit"
+
+#: includes/class-wcpdf-templates-settings.php:639
+msgid "Attribute"
+msgstr "Attribut"
+
+#: includes/class-wcpdf-templates-settings.php:643
+msgid "Attribute name"
+msgstr "Nom de l’attribut"
+
+#: includes/class-wcpdf-templates-settings.php:652
+msgid "Custom field (Product)"
+msgstr "Champ personnalisé (Produit)"
+
+#: includes/class-wcpdf-templates-settings.php:656
+msgid "Field name"
+msgstr "Nom du champ"
+
+#: includes/class-wcpdf-templates-settings.php:675
+msgid "Short description"
+msgstr "Description courte"
+
+#: includes/class-wcpdf-templates-settings.php:676
+msgid "Long description"
+msgstr "Description longue"
+
+#: includes/class-wcpdf-templates-settings.php:681
+msgid "Use variation description when available"
+msgstr "Utiliser la description de la variation lorsqu’elle est disponible"
+
+#: includes/class-wcpdf-templates-settings.php:686
+msgid "Product categories"
+msgstr "Catégories de produits"
+
+#: includes/class-wcpdf-templates-settings.php:696
+msgid "Checkbox"
+msgstr "Case à cocher"
+
+#: includes/class-wcpdf-templates-settings.php:719
+#: includes/class-wcpdf-templates-settings.php:916
+msgid "Custom function"
+msgstr "Fonction personnalisée"
+
+#: includes/class-wcpdf-templates-settings.php:727
+#: includes/class-wcpdf-templates-settings.php:920
+msgid "Function name"
+msgstr "Nom de la fonction"
+
+#: includes/class-wcpdf-templates-settings.php:737
+msgid "Subtotal"
+msgstr "Sous-total"
+
+#: includes/class-wcpdf-templates-settings.php:760
+msgid "Show only for discounted orders"
+msgstr "Afficher uniquement pour les commandes à prix réduit"
+
+#: includes/class-wcpdf-templates-settings.php:781
+msgid "Add discount percentage to label"
+msgstr "Ajouter un pourcentage de remise à le libellé"
+
+#: includes/class-wcpdf-templates-settings.php:785
+msgid "Add coupon codes to label"
+msgstr "Ajouter les codes promo au libellé"
+
+#: includes/class-wcpdf-templates-settings.php:789
+msgid "Print each coupon discount separately"
+msgstr "Imprimer chaque code promo séparément"
+
+#: includes/class-wcpdf-templates-settings.php:794
+msgid "Shipping"
+msgstr "Livraison"
+
+#: includes/class-wcpdf-templates-settings.php:803
+msgid "Hide when free"
+msgstr "Masquer quand c’est gratuit"
+
+#: includes/class-wcpdf-templates-settings.php:807
+msgctxt "shipping method"
+msgid "Show method instead of cost"
+msgstr "Voir le moyen au lieu du coût"
+
+#: includes/class-wcpdf-templates-settings.php:819
+msgid "Fees"
+msgstr "Frais"
+
+#: includes/class-wcpdf-templates-settings.php:840
+#: includes/class-wcpdf-templates-settings.php:870
+msgid "Include %"
+msgstr "Inclure %"
+
+#: includes/class-wcpdf-templates-settings.php:844
+msgid "Include tax base/subtotal"
+msgstr "Inclure la base de taxation/sous-total"
+
+#: includes/class-wcpdf-templates-settings.php:848
+msgid "Single total"
+msgstr "Total unique"
+
+#: includes/class-wcpdf-templates-settings.php:853
+msgid "Combined tax"
+msgstr "Impôt combiné"
+
+#: includes/class-wcpdf-templates-settings.php:854
+msgid "Shipping tax"
+msgstr "Taxe d’expédition"
+
+#: includes/class-wcpdf-templates-settings.php:855
+msgid "Product tax"
+msgstr "Taxe sur les produits"
+
+#: includes/class-wcpdf-templates-settings.php:861
+msgid "VAT base/subtotal"
+msgstr "Base tva/sous-total"
+
+#: includes/class-wcpdf-templates-settings.php:875
+msgid "Grand total"
+msgstr "Total global"
+
+#: includes/class-wcpdf-templates-settings.php:968
+msgid "Item Columns"
+msgstr "Colonnes d’articles"
+
+#: includes/class-wcpdf-templates-settings.php:969
+msgid "Total Rows"
+msgstr "Rangées de totaux"
+
+#: includes/class-wcpdf-templates-settings.php:973
+msgid "Load defaults (all documents!)"
+msgstr "Charger les valeurs par défaut (tous les documents!)"
+
+#: includes/class-wcpdf-templates-settings.php:981
+#: includes/class-wcpdf-templates-settings.php:1044
+msgid "Need help?"
+msgstr "Besoin d’aide?"
+
+#: includes/class-wcpdf-templates-settings.php:981
+msgid "Using the Customizer"
+msgstr "Utilisation du personnalisateur"
+
+#: includes/class-wcpdf-templates-settings.php:1025
+msgid "Add a column"
+msgstr "Ajouter une colonne"
+
+#: includes/class-wcpdf-templates-settings.php:1030
+msgid "Add a row"
+msgstr "Ajouter une ligne"
+
+#: includes/class-wcpdf-templates-settings.php:1044
+msgid "Custom blocks"
+msgstr "Blocs personnalisés"
+
+#: includes/class-wcpdf-templates-settings.php:1044
+msgid "Using Custom Blocks"
+msgstr "Utilisation de blocs personnalisés"
+
+#: includes/class-wcpdf-templates-settings.php:1059
+msgid "Add a block"
+msgstr "Ajouter un bloc"
+
+#: includes/class-wcpdf-templates-settings.php:1206
+msgid "Type"
+msgstr "Type"
+
+#: includes/class-wcpdf-templates-settings.php:1211
+msgid "Custom Field"
+msgstr "Champ personnalisé"
+
+#: includes/class-wcpdf-templates-settings.php:1212
+msgid "User Meta"
+msgstr "Méta de l’utilisateur"
+
+#: includes/class-wcpdf-templates-settings.php:1229
+msgid "Before document"
+msgstr "Avant le document"
+
+#: includes/class-wcpdf-templates-settings.php:1230
+msgid "Before the shop name"
+msgstr "Avant le nom de la boutique"
+
+#: includes/class-wcpdf-templates-settings.php:1231
+msgid "After the shop name"
+msgstr "Après le nom de la boutique"
+
+#: includes/class-wcpdf-templates-settings.php:1232
+msgid "Before the shop address"
+msgstr "Avant l’adresse de la boutique"
+
+#: includes/class-wcpdf-templates-settings.php:1233
+msgid "After the shop address"
+msgstr "Après l’adresse de la boutique"
+
+#: includes/class-wcpdf-templates-settings.php:1234
+msgid "Before the document label"
+msgstr "Après le libellé du document"
+
+#: includes/class-wcpdf-templates-settings.php:1235
+msgid "After the document label"
+msgstr "Après le libellé du document"
+
+#: includes/class-wcpdf-templates-settings.php:1236
+msgid "Before the billing address"
+msgstr "Avant l’adresse de facturation"
+
+#: includes/class-wcpdf-templates-settings.php:1237
+msgid "After the billing address"
+msgstr "Après l’adresse de facturation"
+
+#: includes/class-wcpdf-templates-settings.php:1238
+msgid "Before the shipping address"
+msgstr "Avant l’adresse de livraison"
+
+#: includes/class-wcpdf-templates-settings.php:1239
+msgid "After the shipping address"
+msgstr "Après l’adresse de livraison"
+
+#: includes/class-wcpdf-templates-settings.php:1240
+msgid "Before the order data (invoice number, order date, etc.)"
+msgstr ""
+"Avant les données de la commande (numéro de facture, date de la commande, "
+"etc.)"
+
+#: includes/class-wcpdf-templates-settings.php:1241
+msgid "After the order data"
+msgstr "Après les données de la commande"
+
+#: includes/class-wcpdf-templates-settings.php:1242
+msgid "Before the customer notes"
+msgstr "Avant les notes du client"
+
+#: includes/class-wcpdf-templates-settings.php:1243
+msgid "After the customer notes"
+msgstr "Après les notes du client"
+
+#: includes/class-wcpdf-templates-settings.php:1244
+msgid "Before the order details table with all items"
+msgstr "Avant le tableau des détails de la commande avec tous les articles"
+
+#: includes/class-wcpdf-templates-settings.php:1245
+msgid "After the order details table"
+msgstr "Après le tableau des détails de la commande"
+
+#: includes/class-wcpdf-templates-settings.php:1246
+msgid "Before the footer"
+msgstr "Avant le pied de la page"
+
+#: includes/class-wcpdf-templates-settings.php:1247
+msgid "After the footer"
+msgstr "Après le pied de la page"
+
+#: includes/class-wcpdf-templates-settings.php:1248
+msgid "After document"
+msgstr "Après le document"
+
+#: includes/class-wcpdf-templates-settings.php:1260
+msgid "Label / header"
+msgstr "Étiquette / en-tête"
+
+#: includes/class-wcpdf-templates-settings.php:1272
+msgid "Field name / meta key"
+msgstr "Nom du champ / clé méta"
+
+#: includes/class-wcpdf-templates-settings.php:1273
+msgid "Only blocks of type “Text” support the use of {{placeholders}}"
+msgstr ""
+"Seuls les blocs de type \"Texte\" permettent l’utilisation de "
+"{{textes_indicatifs}}"
+
+#: includes/class-wcpdf-templates-settings.php:1302
+msgid "advanced"
+msgstr "avancé"
+
+#: includes/class-wcpdf-templates-settings.php:1310
+msgid "Select additional requirements for displaying this custom block"
+msgstr ""
+"Sélectionner les prérequis supplémentaires pour l’affichage de ce bloc "
+"personnalisé"
+
+#: includes/class-wcpdf-templates-settings.php:1321
+msgid "Order status"
+msgstr "État de la commande"
+
+#: includes/class-wcpdf-templates-settings.php:1329
+msgid "Select one or more statuses"
+msgstr "Sélectionnez un ou plusieurs états"
+
+#: includes/class-wcpdf-templates-settings.php:1341
+msgid "Payment method"
+msgstr "Moyen de paiement"
+
+#: includes/class-wcpdf-templates-settings.php:1353
+msgid "Select one or more payment methods"
+msgstr "Sélectionnez un ou plusieurs moyens de paiement"
+
+#: includes/class-wcpdf-templates-settings.php:1367
+msgid "Billing country"
+msgstr "Pays de facturation"
+
+#: includes/class-wcpdf-templates-settings.php:1375
+#: includes/class-wcpdf-templates-settings.php:1395
+msgid "Select one or more countries"
+msgstr "Sélectionnez un ou plusieurs pays"
+
+#: includes/class-wcpdf-templates-settings.php:1387
+msgid "Shipping country"
+msgstr "Pays de livraison"
+
+#: includes/class-wcpdf-templates-settings.php:1413
+msgid "VAT reverse charge"
+msgstr "Auto-liquidation de la TVA"
+
+#: includes/class-wcpdf-templates-settings.php:1427
+msgid "Don't show if empty"
+msgstr "Ne pas afficher si vide"
+
+#: includes/class-wcpdf-templates-settings.php:1439
+msgid "Raw HTML mode (don't convert line breaks)"
+msgstr "Mode HTML brut (ne pas convertir les sauts de ligne)"
+
+#: includes/class-wcpdf-templates-settings.php:1463
+msgid "Footer height"
+msgstr "Hauteur du pied de page"
+
+#: includes/class-wcpdf-templates-settings.php:1470
+msgid ""
+"Enter the total height of the footer in mm, cm or in and use a dot for "
+"decimals.<br/>For example: 1.25in or 82mm"
+msgstr ""
+"Entrez la hauteur totale du pied de page en mm, cm ou pouces et utilisez un "
+"point pour les décimales.<br/>Par exemple : 1.25po ou 82mm"
+
+#. translators: 1. template name, 2. placeholder
+#: includes/class-wcpdf-templates-settings.php:1498
+msgid ""
+"Not used for <i>%1$s</i> template by default. You can use the "
+"<code>{{wpo_wcpdf_%2$s}}</code> placeholder within the customizer to display "
+"the content from this field."
+msgstr ""
+"Non utilisé par défaut pour les <i>%1$s</i> par défaut. Vous pouvez utiliser "
+"l’espace réservé <code>{{wpo_wcpdf_%2$s}</code> } dans le personnalisateur "
+"pour afficher le contenu de ce champ."
+
+#. translators: template name
+#: includes/class-wcpdf-templates-settings.php:1507
+msgid "This shows in the <i>%s (Premium)</i> template header"
+msgstr "Cela apparaît dans l’en-tête du modèle <i>%s (Premium)</i>"
+
+#: templates/Modern/template-functions.php:114
+msgid "Theme color"
+msgstr "Couleur du thème"
+
+#. translators: 1. plugin name, 2. click here
+#: woocommerce-pdf-ips-templates.php:361
+msgid ""
+"Your license of %1$s has not been activated on this site, %2$s to enter your "
+"license key."
+msgstr ""
+"Ta licence de %1$s n’a pas été activée sur ce site, %2$s pour saisir votre "
+"clé de licence."
+
+#: woocommerce-pdf-ips-templates.php:363
+msgid "click here"
+msgstr "cliquez ici"
+
+#~ msgid "Ewout Fernhout"
+#~ msgstr "Ewout Fernhout"
+
+#~ msgid "Static text"
+#~ msgstr "Texte statique"
+
+#~ msgid "Not used for <i>%s</i> template by default"
+#~ msgstr "Non utilisé pour <i>%s</i> modèle par défaut"

@@ -1,0 +1,5 @@
+/*!
+ * WooCommerce Bulk Variations 2.2.0
+ * Copyright 2022 Barn2 Plugins
+ */
+body.wp-admin[class*=taxonomy-pa_] th#wcbvp-thumbnail{width:60px}

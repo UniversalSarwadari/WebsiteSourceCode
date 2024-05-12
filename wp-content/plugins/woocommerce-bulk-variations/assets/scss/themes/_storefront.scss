@@ -1,0 +1,28 @@
+.theme-storefront {
+    .wc-bulk-variations-table {
+        margin: 0 0 15px;
+
+		> * {
+            background-color: #fdfdfd;
+            padding: .5em;
+        }
+
+		> .wcbvp-col-header {
+            font-weight: 600;
+            background-color: #f8f8f8;
+        }
+
+        .wcbvp-row-header, .wcbvp-cell {
+            &.wcbvp-alt {
+                background-color: #fbfbfb;
+            }
+        }
+        
+		> .wcbv-cell {
+			input.wcbvp-quantity {
+				height: auto;
+				line-height: 1.618;
+			}
+		}
+    }
+}

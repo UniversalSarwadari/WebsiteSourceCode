@@ -1,0 +1,5 @@
+/*!
+ * WooCommerce Bulk Variations 2.2.0
+ * Copyright 2022 Barn2 Plugins
+ */
+#woocommerce-product-data .product_data li.bulk_variations_tab a:before{content:""!important}#bulk_variations_product_data .single-attribute .hide-if-single{display:none}#bulk_variations_product_data .single-attribute .show-if-single{display:block}#bulk_variations_product_data .show-if-single{display:none}#bulk_variations_product_data select.wcbvp-select{min-width:200px}

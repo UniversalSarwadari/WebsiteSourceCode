@@ -1,0 +1,17 @@
+.qty-suffix-float {
+	margin: 10px;
+	display: inline-block;
+	vertical-align: middle;
+	float: left;
+}
+
+.woo-adv-qty-suffix, .cart-quantity-suffix, .cart-price-suffix {
+	margin: 0 10px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.product-quantity > * {
+	display: inline-block;
+	vertical-align: middle;
+}

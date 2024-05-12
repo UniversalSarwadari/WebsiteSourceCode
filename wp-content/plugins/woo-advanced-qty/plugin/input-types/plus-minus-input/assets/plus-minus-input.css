@@ -1,0 +1,18 @@
+.plus-minus-button input {
+	height: 46px;
+	box-sizing: border-box;
+	display: block;
+	float:left;
+	box-shadow: none;
+	text-align: center;
+}
+
+.plus-minus-button input:focus {
+	outline: none;
+}
+
+.plus-minus-button .woo-advanced-minus, .plus-minus-button .woo-advanced-plus {
+	width: 46px;
+	padding: 0;
+	background-color: #dedede;
+}

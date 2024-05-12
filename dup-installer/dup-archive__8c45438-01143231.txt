@@ -1,0 +1,1253 @@
+{
+    "dup_type": "lite",
+    "created": "2024-03-01 14:32:31",
+    "version_dup": "1.5.8.1",
+    "version_wp": "6.4.3",
+    "version_db": "10.6.16",
+    "version_php": "8.1.27",
+    "version_os": "Linux",
+    "blogname": "Sarwadari Footwear",
+    "exportOnlyDB": 0,
+    "secure_on": 0,
+    "secure_pass": "$2a$08$3jkQsHbma5nQQR7Knx2rd.WWdWmWtAuA56wY82NikFJiHXfRQ1KPu",
+    "dbhost": null,
+    "dbname": null,
+    "dbuser": null,
+    "cpnl_host": null,
+    "cpnl_user": null,
+    "cpnl_pass": null,
+    "cpnl_enable": null,
+    "wp_tableprefix": "wpqx_",
+    "mu_mode": 0,
+    "mu_generation": 0,
+    "mu_siteadmins": [
+        "admin"
+    ],
+    "subsites": [
+        {
+            "id": 1,
+            "domain": "sarwadarifootwear.in",
+            "path": "\/",
+            "blogname": "Sarwadari Footwear",
+            "blog_prefix": "wpqx_",
+            "filteredTables": [],
+            "adminUsers": [
+                {
+                    "ID": "1",
+                    "user_login": "jigar.chaudhary",
+                    "id": "1"
+                },
+                {
+                    "ID": "5",
+                    "user_login": "sarwadari",
+                    "id": "5"
+                }
+            ],
+            "fullHomeUrl": "https:\/\/sarwadarifootwear.in",
+            "fullSiteUrl": "https:\/\/sarwadarifootwear.in",
+            "uploadPath": "wp-content\/uploads",
+            "fullUploadPath": "\/home\/sarwnuxo\/public_html\/wp-content\/uploads",
+            "fullUploadSafePath": "\/home\/sarwnuxo\/public_html\/wp-content\/uploads",
+            "fullUploadUrl": "https:\/\/sarwadarifootwear.in\/wp-content\/uploads",
+            "filteredPaths": []
+        }
+    ],
+    "main_site_id": 1,
+    "mu_is_filtered": false,
+    "license_limit": 0,
+    "license_type": 0,
+    "dbInfo": {
+        "buildMode": "MYSQLDUMP",
+        "charSetList": [
+            "utf8mb4",
+            "utf8mb3"
+        ],
+        "collationList": [
+            "utf8mb3_general_ci",
+            "utf8mb4_bin",
+            "utf8mb4_unicode_520_ci",
+            "utf8mb4_unicode_ci"
+        ],
+        "engineList": [
+            "InnoDB"
+        ],
+        "isTablesUpperCase": 0,
+        "isNameUpperCase": 0,
+        "name": "sarwnuxo_wp697",
+        "tablesBaseCount": 89,
+        "tablesFinalCount": 89,
+        "muFilteredTableCount": 0,
+        "tablesRowCount": 460520,
+        "tablesSizeOnDisk": 169476096,
+        "tablesList": {
+            "wpqx_actionscheduler_actions": {
+                "inaccurateRows": 2025,
+                "insertedRows": 1960,
+                "size": 2048000
+            },
+            "wpqx_actionscheduler_claims": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpqx_actionscheduler_groups": {
+                "inaccurateRows": 8,
+                "insertedRows": 8,
+                "size": 32768
+            },
+            "wpqx_actionscheduler_logs": {
+                "inaccurateRows": 5805,
+                "insertedRows": 5884,
+                "size": 884736
+            },
+            "wpqx_atum_order_itemmeta": {
+                "inaccurateRows": 45688,
+                "insertedRows": 55086,
+                "size": 7847936
+            },
+            "wpqx_atum_order_items": {
+                "inaccurateRows": 4161,
+                "insertedRows": 5008,
+                "size": 409600
+            },
+            "wpqx_atum_product_data": {
+                "inaccurateRows": 4814,
+                "insertedRows": 4762,
+                "size": 1900544
+            },
+            "wpqx_commentmeta": {
+                "inaccurateRows": 8299,
+                "insertedRows": 12510,
+                "size": 2048000
+            },
+            "wpqx_comments": {
+                "inaccurateRows": 5824,
+                "insertedRows": 11703,
+                "size": 7323648
+            },
+            "wpqx_digits_auth_devices": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "wpqx_digits_login_logs": {
+                "inaccurateRows": 8,
+                "insertedRows": 8,
+                "size": 49152
+            },
+            "wpqx_digits_mobile_otp": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpqx_digits_otp": {
+                "inaccurateRows": 4,
+                "insertedRows": 4,
+                "size": 65536
+            },
+            "wpqx_digits_request_logs": {
+                "inaccurateRows": 10,
+                "insertedRows": 10,
+                "size": 65536
+            },
+            "wpqx_digits_user_session": {
+                "inaccurateRows": 45,
+                "insertedRows": 45,
+                "size": 32768
+            },
+            "wpqx_duplicator_packages": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 65536
+            },
+            "wpqx_e_events": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpqx_jetpack_sync_queue": {
+                "inaccurateRows": 21,
+                "insertedRows": 21,
+                "size": 81920
+            },
+            "wpqx_links": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpqx_litespeed_url": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpqx_litespeed_url_file": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 98304
+            },
+            "wpqx_loginizer_logs": {
+                "inaccurateRows": 1,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpqx_options": {
+                "inaccurateRows": 7785,
+                "insertedRows": 7296,
+                "size": 8732672
+            },
+            "wpqx_postmeta": {
+                "inaccurateRows": 220730,
+                "insertedRows": 263441,
+                "size": 75595776
+            },
+            "wpqx_posts": {
+                "inaccurateRows": 9823,
+                "insertedRows": 9473,
+                "size": 26263552
+            },
+            "wpqx_post_smtp_logmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpqx_post_smtp_logs": {
+                "inaccurateRows": 226,
+                "insertedRows": 250,
+                "size": 6307840
+            },
+            "wpqx_relevanssi": {
+                "inaccurateRows": 5506,
+                "insertedRows": 7875,
+                "size": 2195456
+            },
+            "wpqx_relevanssi_log": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpqx_relevanssi_stopwords": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpqx_revslider_css": {
+                "inaccurateRows": 109,
+                "insertedRows": 109,
+                "size": 147456
+            },
+            "wpqx_revslider_css_bkp": {
+                "inaccurateRows": 47,
+                "insertedRows": 47,
+                "size": 32768
+            },
+            "wpqx_revslider_layer_animations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpqx_revslider_layer_animations_bkp": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpqx_revslider_navigations": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 16384
+            },
+            "wpqx_revslider_navigations_bkp": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpqx_revslider_sliders": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 49152
+            },
+            "wpqx_revslider_sliders_bkp": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpqx_revslider_slides": {
+                "inaccurateRows": 5,
+                "insertedRows": 5,
+                "size": 196608
+            },
+            "wpqx_revslider_slides_bkp": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpqx_revslider_static_slides": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 32768
+            },
+            "wpqx_revslider_static_slides_bkp": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpqx_snippets": {
+                "inaccurateRows": 6,
+                "insertedRows": 6,
+                "size": 49152
+            },
+            "wpqx_termmeta": {
+                "inaccurateRows": 888,
+                "insertedRows": 932,
+                "size": 294912
+            },
+            "wpqx_terms": {
+                "inaccurateRows": 206,
+                "insertedRows": 230,
+                "size": 49152
+            },
+            "wpqx_term_relationships": {
+                "inaccurateRows": 7255,
+                "insertedRows": 11957,
+                "size": 704512
+            },
+            "wpqx_term_taxonomy": {
+                "inaccurateRows": 230,
+                "insertedRows": 230,
+                "size": 81920
+            },
+            "wpqx_usermeta": {
+                "inaccurateRows": 647,
+                "insertedRows": 647,
+                "size": 1294336
+            },
+            "wpqx_users": {
+                "inaccurateRows": 16,
+                "insertedRows": 16,
+                "size": 65536
+            },
+            "wpqx_wcpdf_invoice_number": {
+                "inaccurateRows": 566,
+                "insertedRows": 1320,
+                "size": 49152
+            },
+            "wpqx_wcpdf_packing_slip_number": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpqx_wc_admin_notes": {
+                "inaccurateRows": 105,
+                "insertedRows": 110,
+                "size": 81920
+            },
+            "wpqx_wc_admin_note_actions": {
+                "inaccurateRows": 144,
+                "insertedRows": 144,
+                "size": 65536
+            },
+            "wpqx_wc_category_lookup": {
+                "inaccurateRows": 12,
+                "insertedRows": 13,
+                "size": 16384
+            },
+            "wpqx_wc_customer_lookup": {
+                "inaccurateRows": 14,
+                "insertedRows": 14,
+                "size": 49152
+            },
+            "wpqx_wc_download_log": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpqx_wc_orders": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 131072
+            },
+            "wpqx_wc_orders_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpqx_wc_order_addresses": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wpqx_wc_order_coupon_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpqx_wc_order_operational_data": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpqx_wc_order_product_lookup": {
+                "inaccurateRows": 8514,
+                "insertedRows": 38591,
+                "size": 2621440
+            },
+            "wpqx_wc_order_stats": {
+                "inaccurateRows": 1106,
+                "insertedRows": 1375,
+                "size": 360448
+            },
+            "wpqx_wc_order_tax_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpqx_wc_product_attributes_lookup": {
+                "inaccurateRows": 5004,
+                "insertedRows": 8116,
+                "size": 770048
+            },
+            "wpqx_wc_product_download_directories": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "wpqx_wc_product_meta_lookup": {
+                "inaccurateRows": 5017,
+                "insertedRows": 4810,
+                "size": 2539520
+            },
+            "wpqx_wc_rate_limits": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpqx_wc_reserved_stock": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpqx_wc_tax_rate_classes": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "wpqx_wc_webhooks": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpqx_woocommerce_api_keys": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpqx_woocommerce_attribute_taxonomies": {
+                "inaccurateRows": 7,
+                "insertedRows": 6,
+                "size": 32768
+            },
+            "wpqx_woocommerce_downloadable_product_permissions": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wpqx_woocommerce_log": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpqx_woocommerce_order_itemmeta": {
+                "inaccurateRows": 101271,
+                "insertedRows": 460810,
+                "size": 15253504
+            },
+            "wpqx_woocommerce_order_items": {
+                "inaccurateRows": 8499,
+                "insertedRows": 38591,
+                "size": 753664
+            },
+            "wpqx_woocommerce_payment_tokenmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpqx_woocommerce_payment_tokens": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wpqx_woocommerce_sessions": {
+                "inaccurateRows": 10,
+                "insertedRows": 10,
+                "size": 163840
+            },
+            "wpqx_woocommerce_shipping_zones": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpqx_woocommerce_shipping_zone_locations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpqx_woocommerce_shipping_zone_methods": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wpqx_woocommerce_tax_rates": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wpqx_woocommerce_tax_rate_locations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wpqx_woodmart_wishlists": {
+                "inaccurateRows": 14,
+                "insertedRows": 14,
+                "size": 16384
+            },
+            "wpqx_woodmart_wishlist_products": {
+                "inaccurateRows": 30,
+                "insertedRows": 90,
+                "size": 32768
+            },
+            "wpqx_woo_wallet_transactions": {
+                "inaccurateRows": 5,
+                "insertedRows": 5,
+                "size": 32768
+            },
+            "wpqx_woo_wallet_transaction_meta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            }
+        },
+        "lowerCaseTableNames": 0,
+        "dbEngine": "MariaDB",
+        "version": "10.6.16",
+        "versionComment": "MariaDB Server",
+        "viewCount": 0,
+        "procCount": 0,
+        "funcCount": 0,
+        "triggerList": []
+    },
+    "packInfo": {
+        "packageId": 2,
+        "packageName": "20240301_sarwadarifootwear",
+        "packageHash": "8c45438-01143231",
+        "secondaryHash": "be3d26b-01143231"
+    },
+    "fileInfo": {
+        "dirCount": 4079,
+        "fileCount": 34968,
+        "size": 731403536
+    },
+    "wpInfo": {
+        "version": "6.4.3",
+        "is_multisite": false,
+        "network_id": 1,
+        "targetRoot": "\/home\/sarwnuxo\/public_html",
+        "targetPaths": [
+            "\/home\/sarwnuxo\/public_html"
+        ],
+        "adminUsers": [
+            {
+                "ID": "1",
+                "user_login": "jigar.chaudhary",
+                "id": "1"
+            },
+            {
+                "ID": "5",
+                "user_login": "sarwadari",
+                "id": "5"
+            }
+        ],
+        "configs": {
+            "defines": {
+                "ABSPATH": {
+                    "value": "\/home\/sarwnuxo\/public_html\/",
+                    "inWpConfig": true
+                },
+                "DB_CHARSET": {
+                    "value": "utf8mb4",
+                    "inWpConfig": true
+                },
+                "DB_COLLATE": {
+                    "value": "",
+                    "inWpConfig": true
+                },
+                "AUTH_KEY": {
+                    "value": "kc9ffj2rlytplozqdjyjynfqwbg2cuqm2cdxbjnosebwwra2plnqo0abbrgq7u0m",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_KEY": {
+                    "value": "7rxnzjccu0mp6pdenjuoj7wkswv4qcj2lspaemfxhjaw8bdybzfz1u61nywyjhhp",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_KEY": {
+                    "value": "fd4yfok7vsckf0swfmmtgx4v3whgmvmchterrtrftbkpmy8okptp9e8izxm8gos2",
+                    "inWpConfig": true
+                },
+                "NONCE_KEY": {
+                    "value": "amg4u4ls4tubyhgoyjqlmkhrbefznzl4pdxbcemapd0mm5bud5frl1ulvynykqus",
+                    "inWpConfig": true
+                },
+                "AUTH_SALT": {
+                    "value": "dzjjlnone3fdckp6fcfdo8awaev4cekk2d1ax45aa5h59usiqc9dqkkbo9dnldbq",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_SALT": {
+                    "value": "azlx5z5jaw0by47zdpypwfb3ymdy1uylhn9qhbz6w4uhdk7ucgsiqiwnd81p4kng",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_SALT": {
+                    "value": "sqo17fpl1lcy559up5vbmfzphxf7fqabizu9un5ldfrl1isdrumfyyenrixmowno",
+                    "inWpConfig": true
+                },
+                "NONCE_SALT": {
+                    "value": "cdllzbmc8cpetezqercttfrleglultcxj8zdi6fi1iekrn9z0uoo4qfzpun5i7wa",
+                    "inWpConfig": true
+                },
+                "WP_CONTENT_DIR": {
+                    "value": "\/home\/sarwnuxo\/public_html\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_CONTENT_URL": {
+                    "value": "https:\/\/sarwadarifootwear.in\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_DIR": {
+                    "value": "\/home\/sarwnuxo\/public_html\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_URL": {
+                    "value": "https:\/\/sarwadarifootwear.in\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "PLUGINDIR": {
+                    "value": "wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "AUTOSAVE_INTERVAL": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "WP_POST_REVISIONS": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "COOKIE_DOMAIN": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "MULTISITE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG": {
+                    "value": false,
+                    "inWpConfig": true
+                },
+                "SCRIPT_DEBUG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_LOG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_DISPLAY": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WP_MEMORY_LIMIT": {
+                    "value": "40M",
+                    "inWpConfig": false
+                },
+                "WP_MAX_MEMORY_LIMIT": {
+                    "value": "1024M",
+                    "inWpConfig": false
+                },
+                "WP_CACHE": {
+                    "value": true,
+                    "inWpConfig": true
+                },
+                "WP_LANG_DIR": {
+                    "value": "\/home\/sarwnuxo\/public_html\/wp-content\/languages",
+                    "inWpConfig": false
+                },
+                "WP_CRON_LOCK_TIMEOUT": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "COOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "SITECOOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "ADMIN_COOKIE_PATH": {
+                    "value": "\/wp-admin",
+                    "inWpConfig": false
+                },
+                "PLUGINS_COOKIE_PATH": {
+                    "value": "\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "TEMPLATEPATH": {
+                    "value": "\/home\/sarwnuxo\/public_html\/wp-content\/themes\/woodmart",
+                    "inWpConfig": false
+                },
+                "STYLESHEETPATH": {
+                    "value": "\/home\/sarwnuxo\/public_html\/wp-content\/themes\/woodmart-child",
+                    "inWpConfig": false
+                },
+                "EMPTY_TRASH_DAYS": {
+                    "value": 30,
+                    "inWpConfig": false
+                },
+                "FORCE_SSL_ADMIN": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_DIR": {
+                    "value": "\/home\/sarwnuxo\/public_html\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_URL": {
+                    "value": "https:\/\/sarwadarifootwear.in\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "MUPLUGINDIR": {
+                    "value": "wp-content\/mu-plugins",
+                    "inWpConfig": false
+                }
+            },
+            "realValues": {
+                "siteUrl": "https:\/\/sarwadarifootwear.in",
+                "homeUrl": "https:\/\/sarwadarifootwear.in",
+                "loginUrl": "https:\/\/sarwadarifootwear.in\/wp-login.php",
+                "contentUrl": "https:\/\/sarwadarifootwear.in\/wp-content",
+                "uploadBaseUrl": "https:\/\/sarwadarifootwear.in\/wp-content\/uploads",
+                "pluginsUrl": "https:\/\/sarwadarifootwear.in\/wp-content\/plugins",
+                "mupluginsUrl": "https:\/\/sarwadarifootwear.in\/wp-content\/mu-plugins",
+                "themesUrl": "https:\/\/sarwadarifootwear.in\/wp-content\/themes",
+                "originalPaths": {
+                    "home": "\/home\/sarwnuxo\/public_html",
+                    "abs": "\/home\/sarwnuxo\/public_html",
+                    "wpconfig": "\/home\/sarwnuxo\/public_html",
+                    "wpcontent": "\/home\/sarwnuxo\/public_html\/wp-content",
+                    "uploads": "\/home\/sarwnuxo\/public_html\/wp-content\/uploads",
+                    "plugins": "\/home\/sarwnuxo\/public_html\/wp-content\/plugins",
+                    "muplugins": "\/home\/sarwnuxo\/public_html\/wp-content\/mu-plugins",
+                    "themes": "\/home\/sarwnuxo\/public_html\/wp-content\/themes"
+                },
+                "archivePaths": {
+                    "home": "\/home\/sarwnuxo\/public_html",
+                    "abs": "\/home\/sarwnuxo\/public_html",
+                    "wpconfig": "\/home\/sarwnuxo\/public_html",
+                    "wpcontent": "\/home\/sarwnuxo\/public_html\/wp-content",
+                    "uploads": "\/home\/sarwnuxo\/public_html\/wp-content\/uploads",
+                    "plugins": "\/home\/sarwnuxo\/public_html\/wp-content\/plugins",
+                    "muplugins": "\/home\/sarwnuxo\/public_html\/wp-content\/mu-plugins",
+                    "themes": "\/home\/sarwnuxo\/public_html\/wp-content\/themes"
+                }
+            }
+        },
+        "plugins": {
+            "all-in-one-wp-migration\/all-in-one-wp-migration.php": {
+                "slug": "all-in-one-wp-migration\/all-in-one-wp-migration.php",
+                "name": "All-in-One WP Migration",
+                "version": "7.80",
+                "pluginURI": "https:\/\/servmask.com\/",
+                "author": "ServMask",
+                "authorURI": "https:\/\/servmask.com\/",
+                "description": "Migration tool for all your blog data. Import or Export your blog content with a single click.",
+                "title": "All-in-One WP Migration",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "all-in-one-wp-migration-unlimited-extension\/all-in-one-wp-migration-unlimited-extension.php": {
+                "slug": "all-in-one-wp-migration-unlimited-extension\/all-in-one-wp-migration-unlimited-extension.php",
+                "name": "All-in-One WP Migration Unlimited Extension",
+                "version": "2.53",
+                "pluginURI": "https:\/\/servmask.com\/",
+                "author": "ServMask",
+                "authorURI": "https:\/\/servmask.com\/",
+                "description": "Extension for All-in-One WP Migration that enables unlimited size exports and imports",
+                "title": "All-in-One WP Migration Unlimited Extension",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "atum-stock-manager-for-woocommerce\/atum-stock-manager-for-woocommerce.php": {
+                "slug": "atum-stock-manager-for-woocommerce\/atum-stock-manager-for-woocommerce.php",
+                "name": "ATUM Inventory Management for WooCommerce",
+                "version": "1.9.36.2",
+                "pluginURI": "https:\/\/stockmanagementlabs.com\/",
+                "author": "Stock Management Labs\u2122",
+                "authorURI": "https:\/\/stockmanagementlabs.com\/",
+                "description": "The ultimate stock management plugin for serious WooCommerce sellers",
+                "title": "ATUM Inventory Management for WooCommerce",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "code-snippets\/code-snippets.php": {
+                "slug": "code-snippets\/code-snippets.php",
+                "name": "Code Snippets",
+                "version": "3.6.2",
+                "pluginURI": "https:\/\/codesnippets.pro",
+                "author": "Code Snippets Pro",
+                "authorURI": "https:\/\/codesnippets.pro",
+                "description": "An easy, clean and simple way to run code snippets on your site. No need to edit to your theme's functions.php file again!",
+                "title": "Code Snippets",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "contact-form-7\/wp-contact-form-7.php": {
+                "slug": "contact-form-7\/wp-contact-form-7.php",
+                "name": "Contact Form 7",
+                "version": "5.8.7",
+                "pluginURI": "https:\/\/contactform7.com\/",
+                "author": "Takayuki Miyoshi",
+                "authorURI": "https:\/\/ideasilo.wordpress.com\/",
+                "description": "Just another contact form plugin. Simple but flexible.",
+                "title": "Contact Form 7",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "controlled-admin-access\/controlled-admin-access.php": {
+                "slug": "controlled-admin-access\/controlled-admin-access.php",
+                "name": "Controlled Admin Access",
+                "version": "2.0.15",
+                "pluginURI": "https:\/\/wpruby.com\/product\/controlled-admin-access",
+                "author": "WPRuby",
+                "authorURI": "https:\/\/wpruby.com",
+                "description": "Grant a temporary limited admin access to others.",
+                "title": "Controlled Admin Access",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "duplicator\/duplicator.php": {
+                "slug": "duplicator\/duplicator.php",
+                "name": "Duplicator",
+                "version": "1.5.8.1",
+                "pluginURI": "https:\/\/duplicator.com\/",
+                "author": "Duplicator",
+                "authorURI": "https:\/\/duplicator.com\/",
+                "description": "Migrate and backup a copy of your WordPress files and database. Duplicate and move a site from one location to another quickly.",
+                "title": "Duplicator",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "elementor\/elementor.php": {
+                "slug": "elementor\/elementor.php",
+                "name": "Elementor",
+                "version": "3.19.4",
+                "pluginURI": "https:\/\/elementor.com\/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash",
+                "author": "Elementor.com",
+                "authorURI": "https:\/\/elementor.com\/?utm_source=wp-plugins&utm_campaign=author-uri&utm_medium=wp-dash",
+                "description": "The Elementor Website Builder has it all: drag and drop page builder, pixel perfect design, mobile responsive editing, and more. Get started now!",
+                "title": "Elementor",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "fileorganizer\/fileorganizer.php": {
+                "slug": "fileorganizer\/fileorganizer.php",
+                "name": "FileOrganizer",
+                "version": "1.0.6",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/fileorganizer\/",
+                "author": "Softaculous Team",
+                "authorURI": "https:\/\/fileorganizer.net",
+                "description": "FileOrganizer is a plugin that helps you to manage all files in your WordPress Site.",
+                "title": "FileOrganizer",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "jetpack-boost\/jetpack-boost.php": {
+                "slug": "jetpack-boost\/jetpack-boost.php",
+                "name": "Jetpack Boost",
+                "version": "3.0.2",
+                "pluginURI": "https:\/\/jetpack.com\/boost",
+                "author": "Automattic - Jetpack Site Speed team",
+                "authorURI": "https:\/\/jetpack.com\/boost\/",
+                "description": "Boost your WordPress site's performance, from the creators of Jetpack",
+                "title": "Jetpack Boost",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "litespeed-cache\/litespeed-cache.php": {
+                "slug": "litespeed-cache\/litespeed-cache.php",
+                "name": "LiteSpeed Cache",
+                "version": "6.1",
+                "pluginURI": "https:\/\/www.litespeedtech.com\/products\/cache-plugins\/wordpress-acceleration",
+                "author": "LiteSpeed Technologies",
+                "authorURI": "https:\/\/www.litespeedtech.com",
+                "description": "High-performance page caching and site optimization from LiteSpeed",
+                "title": "LiteSpeed Cache",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "loginizer\/loginizer.php": {
+                "slug": "loginizer\/loginizer.php",
+                "name": "Loginizer",
+                "version": "1.8.3",
+                "pluginURI": "https:\/\/wordpress.org\/extend\/plugins\/loginizer\/",
+                "author": "Softaculous",
+                "authorURI": "https:\/\/www.loginizer.com",
+                "description": "Loginizer is a WordPress plugin which helps you fight against bruteforce attack by blocking login for the IP after it reaches maximum retries allowed. You can blacklist or whitelist IPs for login using Loginizer.",
+                "title": "Loginizer",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "loginpress\/loginpress.php": {
+                "slug": "loginpress\/loginpress.php",
+                "name": "LoginPress",
+                "version": "3.0.5",
+                "pluginURI": "https:\/\/loginpress.pro\/?utm_source=loginpress-lite&utm_medium=plugin-inside&utm_campaign=pro-upgrade&utm_content=plugin_uri",
+                "author": "LoginPress",
+                "authorURI": "https:\/\/loginpress.pro\/?utm_source=loginpress-lite",
+                "description": "LoginPress is the best <code>wp-login<\/code> Login Page Customizer plugin by <a href=\"https:\/\/wpbrigade.com\/?utm_source=loginpress-lite\">WPBrigade<\/a> which allows you to completely change the layout of login, register and forgot password forms.",
+                "title": "LoginPress",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "mailchimp-for-wp\/mailchimp-for-wp.php": {
+                "slug": "mailchimp-for-wp\/mailchimp-for-wp.php",
+                "name": "MC4WP: Mailchimp for WordPress",
+                "version": "4.9.11",
+                "pluginURI": "https:\/\/www.mc4wp.com\/#utm_source=wp-plugin&utm_medium=mailchimp-for-wp&utm_campaign=plugins-page",
+                "author": "ibericode",
+                "authorURI": "https:\/\/ibericode.com\/",
+                "description": "Mailchimp for WordPress by ibericode. Adds various highly effective sign-up methods to your site.",
+                "title": "MC4WP: Mailchimp for WordPress",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "woocommerce-pdf-invoices-packing-slips\/woocommerce-pdf-invoices-packingslips.php": {
+                "slug": "woocommerce-pdf-invoices-packing-slips\/woocommerce-pdf-invoices-packingslips.php",
+                "name": "PDF Invoices & Packing Slips for WooCommerce",
+                "version": "3.7.7",
+                "pluginURI": "https:\/\/wpovernight.com\/downloads\/woocommerce-pdf-invoices-packing-slips-bundle\/",
+                "author": "WP Overnight",
+                "authorURI": "https:\/\/www.wpovernight.com",
+                "description": "Create, print & email PDF or UBL Invoices & PDF Packing Slips for WooCommerce orders.",
+                "title": "PDF Invoices & Packing Slips for WooCommerce",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "woocommerce-pdf-ips-templates\/woocommerce-pdf-ips-templates.php": {
+                "slug": "woocommerce-pdf-ips-templates\/woocommerce-pdf-ips-templates.php",
+                "name": "PDF Invoices & Packing Slips for WooCommerce - Premium Templates",
+                "version": "2.21.2",
+                "pluginURI": "https:\/\/wpovernight.com\/downloads\/woocommerce-pdf-invoices-packing-slips-premium-templates\/",
+                "author": "WP Overnight",
+                "authorURI": "https:\/\/wpovernight.com\/",
+                "description": "Premium templates for the PDF Invoices & Packing Slips for WooCommerce extension",
+                "title": "PDF Invoices & Packing Slips for WooCommerce - Premium Templates",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "post-smtp\/postman-smtp.php": {
+                "slug": "post-smtp\/postman-smtp.php",
+                "name": "Post SMTP",
+                "version": "2.8.11",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/post-smtp\/",
+                "author": "Post SMTP",
+                "authorURI": "https:\/\/postmansmtp.com",
+                "description": "Email not reliable? Post SMTP is the first and only WordPress SMTP plugin to implement OAuth 2.0 for Gmail, Hotmail and Yahoo Mail. Setup is a breeze with the Configuration Wizard and integrated Port Tester. Enjoy worry-free delivery even if your password changes!",
+                "title": "Post SMTP",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "regenerate-thumbnails\/regenerate-thumbnails.php": {
+                "slug": "regenerate-thumbnails\/regenerate-thumbnails.php",
+                "name": "Regenerate Thumbnails",
+                "version": "3.1.6",
+                "pluginURI": "https:\/\/alex.blog\/wordpress-plugins\/regenerate-thumbnails\/",
+                "author": "Alex Mills (Viper007Bond)",
+                "authorURI": "https:\/\/alex.blog\/",
+                "description": "Regenerate the thumbnails for one or more of your image uploads. Useful when changing their sizes or your theme.",
+                "title": "Regenerate Thumbnails",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "relevanssi\/relevanssi.php": {
+                "slug": "relevanssi\/relevanssi.php",
+                "name": "Relevanssi",
+                "version": "4.22.1",
+                "pluginURI": "https:\/\/www.relevanssi.com\/",
+                "author": "Mikko Saari",
+                "authorURI": "http:\/\/www.mikkosaari.fi\/",
+                "description": "This plugin replaces WordPress search with a relevance-sorting search.",
+                "title": "Relevanssi",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "restricted-site-access\/restricted_site_access.php": {
+                "slug": "restricted-site-access\/restricted_site_access.php",
+                "name": "Restricted Site Access",
+                "version": "7.5.0",
+                "pluginURI": "https:\/\/10up.com\/plugins\/restricted-site-access-wordpress\/",
+                "author": "10up",
+                "authorURI": "https:\/\/10up.com",
+                "description": "<strong>Limit access your site<\/strong> to visitors who are logged in or accessing the site from a set of specific IP addresses. Send restricted visitors to the log in page, redirect them, or display a message or page. <strong>Powerful control over redirection<\/strong>, including <strong>SEO friendly redirect headers<\/strong>. Great solution for Extranets, publicly hosted Intranets, or parallel development sites.",
+                "title": "Restricted Site Access",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "safe-svg\/safe-svg.php": {
+                "slug": "safe-svg\/safe-svg.php",
+                "name": "Safe SVG",
+                "version": "2.2.2",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/safe-svg\/",
+                "author": "10up",
+                "authorURI": "https:\/\/10up.com",
+                "description": "Enable SVG uploads and sanitize them to stop XML\/SVG vulnerabilities in your WordPress website",
+                "title": "Safe SVG",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "woo-wallet\/woo-wallet.php": {
+                "slug": "woo-wallet\/woo-wallet.php",
+                "name": "TeraWallet",
+                "version": "1.4.11",
+                "pluginURI": "https:\/\/wordpress.org\/plugins\/woo-wallet\/",
+                "author": "StandaloneTech",
+                "authorURI": "https:\/\/standalonetech.com\/",
+                "description": "The leading wallet plugin for WooCommerce with partial payment, refunds, cashbacks and what not!",
+                "title": "TeraWallet",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "woocommerce\/woocommerce.php": {
+                "slug": "woocommerce\/woocommerce.php",
+                "name": "WooCommerce",
+                "version": "8.6.1",
+                "pluginURI": "https:\/\/woo.com\/",
+                "author": "Automattic",
+                "authorURI": "https:\/\/woo.com",
+                "description": "An ecommerce toolkit that helps you sell anything. Beautifully.",
+                "title": "WooCommerce",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "woo-advanced-qty\/woo-advanced-qty.php": {
+                "slug": "woo-advanced-qty\/woo-advanced-qty.php",
+                "name": "WooCommerce Advanced Quantity",
+                "version": "3.0.6",
+                "pluginURI": "https:\/\/morningtrain.dk",
+                "author": "Morning Train Technologies ApS",
+                "authorURI": "https:\/\/morningtrain.dk",
+                "description": "Make the most out of your WooCommerce product quantity selection. This plugin allows you to make more specific product quantity incrementation.",
+                "title": "WooCommerce Advanced Quantity",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "woocommerce-bulk-variations\/woocommerce-bulk-variations.php": {
+                "slug": "woocommerce-bulk-variations\/woocommerce-bulk-variations.php",
+                "name": "WooCommerce Bulk Variations",
+                "version": "2.2.0",
+                "pluginURI": "https:\/\/barn2.com\/wordpress-plugins\/woocommerce-bulk-variations\/",
+                "author": "Barn2 Plugins",
+                "authorURI": "https:\/\/barn2.com",
+                "description": "Displays product variations in a grid layout or price matrix.",
+                "title": "WooCommerce Bulk Variations",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "woocommerce-legacy-rest-api\/woocommerce-legacy-rest-api.php": {
+                "slug": "woocommerce-legacy-rest-api\/woocommerce-legacy-rest-api.php",
+                "name": "WooCommerce Legacy REST API",
+                "version": "1.0.1",
+                "pluginURI": "https:\/\/github.com\/woocommerce\/woocommerce-legacy-rest-api",
+                "author": "WooCommerce",
+                "authorURI": "https:\/\/woocommerce.com",
+                "description": "The legacy WooCommerce REST API, which used to be part of WooCommerce itself but is removed as of WooCommerce 9.0.",
+                "title": "WooCommerce Legacy REST API",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "woodmart-core\/woodmart-core.php": {
+                "slug": "woodmart-core\/woodmart-core.php",
+                "name": "Woodmart Core",
+                "version": "1.0.42",
+                "pluginURI": "",
+                "author": "",
+                "authorURI": "",
+                "description": "Woodmart Core needed for Woodmart theme",
+                "title": "Woodmart Core",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            }
+        },
+        "themes": {
+            "twentytwentyfour": {
+                "slug": "twentytwentyfour",
+                "themeName": "Twenty Twenty-Four",
+                "version": "1.0",
+                "themeURI": "https:\/\/wordpress.org\/themes\/twentytwentyfour\/",
+                "parentTheme": false,
+                "template": "twentytwentyfour",
+                "stylesheet": "twentytwentyfour",
+                "description": "Twenty Twenty-Four is designed to be flexible, versatile and applicable to any website. Its collection of templates and patterns tailor to different needs, such as presenting a business, blogging and writing or showcasing work. A multitude of possibilities open up with just a few adjustments to color and typography. Twenty Twenty-Four comes with style variations and full page designs to help speed up the site building process, is fully compatible with the site editor, and takes advantage of new design tools introduced in WordPress 6.4.",
+                "author": "the WordPress team",
+                "authorURI": "https:\/\/wordpress.org",
+                "tags": [
+                    "one-column",
+                    "custom-colors",
+                    "custom-menu",
+                    "custom-logo",
+                    "editor-style",
+                    "featured-images",
+                    "full-site-editing",
+                    "block-patterns",
+                    "rtl-language-support",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready",
+                    "wide-blocks",
+                    "block-styles",
+                    "style-variations",
+                    "accessibility-ready",
+                    "blog",
+                    "portfolio",
+                    "news"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": true
+            },
+            "woodmart-child": {
+                "slug": "woodmart-child",
+                "themeName": "Woodmart Child",
+                "version": "1.0.0",
+                "themeURI": "",
+                "parentTheme": "woodmart",
+                "template": "woodmart",
+                "stylesheet": "woodmart-child",
+                "description": "Woodmart Child Theme",
+                "author": "XTemos",
+                "authorURI": "http:\/\/xtemos.com",
+                "tags": [],
+                "isAllowed": true,
+                "isActive": true,
+                "defaultTheme": false
+            },
+            "woodmart": {
+                "slug": "woodmart",
+                "themeName": "Woodmart",
+                "version": "7.4.3",
+                "themeURI": "https:\/\/woodmart.xtemos.com\/",
+                "parentTheme": false,
+                "template": "woodmart",
+                "stylesheet": "woodmart",
+                "description": "ThemeForest Premium Theme",
+                "author": "XTemos",
+                "authorURI": "http:\/\/themeforest.net\/user\/xtemos",
+                "tags": [
+                    "one-column",
+                    "two-columns",
+                    "right-sidebar",
+                    "custom-header",
+                    "custom-menu",
+                    "editor-style",
+                    "featured-images",
+                    "microformats",
+                    "post-formats",
+                    "sticky-post",
+                    "translation-ready"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            }
+        }
+    },
+    "defaultStorageId": -1,
+    "components": [
+        "package_component_db",
+        "package_component_core",
+        "package_component_plugins",
+        "package_component_themes",
+        "package_component_uploads",
+        "package_component_other"
+    ],
+    "opts_delete": "[\"duplicator_ui_view_state\",\"duplicator_package_active\",\"duplicator_settings\",\"duplicator_is_pro_enable_notice_dismissed\"]",
+    "brand": {
+        "name": "Duplicator",
+        "isDefault": true,
+        "logo": "<i class=\"fa fa-bolt fa-sm\"><\/i> Duplicator",
+        "enabled": false,
+        "style": []
+    },
+    "overwriteInstallerParams": {
+        "blogname": {
+            "value": "Sarwadari Footwear"
+        }
+    },
+    "installer_base_name": "installer.php.bak",
+    "installer_backup_name": "20240301_sarwadarifootwear_8c45438f6a13975f1823_20240301143231_installer-backup.php",
+    "package_name": "20240301_sarwadarifootwear_8c45438f6a13975f1823_20240301143231_archive.zip",
+    "package_hash": "8c45438-01143231",
+    "package_notes": ""
+}
